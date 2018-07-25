@@ -1,0 +1,23 @@
+2018/07/25-09:15:36.356 1276 Reusing MANIFEST /home/fleip/.config/chromium/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2018/07/25-09:15:36.357 1276 Recovering log #2028
+2018/07/25-09:15:36.357 1276 Reusing old log /home/fleip/.config/chromium/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/002028.log 
+2018/07/25-09:16:37.043 3113 Level-0 table #2032: started
+2018/07/25-09:16:37.081 3113 Level-0 table #2032: 3434674 bytes OK
+2018/07/25-09:16:37.083 3113 Delete type=0 #2028
+2018/07/25-09:16:38.811 3113 Level-0 table #2034: started
+2018/07/25-09:16:38.849 3113 Level-0 table #2034: 3434633 bytes OK
+2018/07/25-09:16:38.852 3113 Delete type=0 #2031
+2018/07/25-09:16:38.853 3113 Compacting 4@0 + 2@1 files
+2018/07/25-09:16:38.899 3113 Generated table #2035@0: 1 keys, 3434291 bytes
+2018/07/25-09:16:38.901 3113 Generated table #2036@0: 4 keys, 442 bytes
+2018/07/25-09:16:38.901 3113 Compacted 4@0 + 2@1 files => 3434733 bytes
+2018/07/25-09:16:38.903 3113 compacted to: files[ 0 2 1 0 0 0 0 ]
+2018/07/25-09:16:38.903 3113 Delete type=2 #2027
+2018/07/25-09:16:38.904 3113 Delete type=2 #2024
+2018/07/25-09:16:38.904 3113 Delete type=2 #2034
+2018/07/25-09:16:38.904 3113 Delete type=2 #2029
+2018/07/25-09:16:38.904 3113 Delete type=2 #2032
+2018/07/25-09:16:38.905 3113 Delete type=2 #2025
+2018/07/25-09:17:24.422 3113 Level-0 table #2038: started
+2018/07/25-09:17:24.463 3113 Level-0 table #2038: 3435808 bytes OK
+2018/07/25-09:17:24.466 3113 Delete type=0 #2033

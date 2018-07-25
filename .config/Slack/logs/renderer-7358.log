@@ -1,0 +1,367 @@
+[07/24/18, 09:31:00:243] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[07/24/18, 09:31:00:244] info: ║      Slack 3.2.1, linux 4.17.6-1-ARCH on x64 at 07/24/18, 09:31:00:241      ║
+[07/24/18, 09:31:00:244] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[07/24/18, 09:31:00:308] info: Initializing local storage instance at path: /home/fleip/.config/Slack/local-settings.json
+[07/24/18, 09:31:00:522] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: cannot open shared object file: No such file or directory",
+    "stack": "Error: libCallsCore.so: cannot open shared object file: No such file or directory\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[07/24/18, 09:31:00:522] error: Desktop module calls failed to load
+[07/24/18, 09:31:00:540] info: cld3::loadModule: loading cld3 module
+[07/24/18, 09:31:00:561] info: cld3Loader::loadModule: running environment is NODE
+[07/24/18, 09:31:00:561] info: cld3Loader::loadModule: constructed module object for runtime
+[07/24/18, 09:31:00:652] info: cld3Loader::initializeRuntime: successfully initialized module
+[07/24/18, 09:31:00:652] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[07/24/18, 09:31:00:660] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, v2 spellchecker is not available
+[07/24/18, 09:31:00:669] info: Main window preload script finished
+{
+  "readyTime": 626.873882
+}
+[07/24/18, 09:31:03:056] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/24/18, 09:31:03:162] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/24/18, 09:31:03:164] info: Store: MAIN_WINDOW_SHOWN
+[07/24/18, 09:31:03:437] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T1G453ZUP"
+}
+[07/24/18, 09:31:03:556] info: postLoadTaskSetup: Desktop client fully loaded
+{
+  "loadedTime": 6288.817628
+}
+[07/24/18, 09:31:03:605] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/24/18, 09:31:03:606] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[07/24/18, 09:31:03:606] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[07/24/18, 09:31:03:749] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/24/18, 09:31:03:750] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/24/18, 09:31:03:750] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/24/18, 09:31:03:767] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    2,
+    2
+  ],
+  "size": [
+    956,
+    1057
+  ]
+}
+[07/24/18, 09:31:03:776] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": null,
+  "teamId": "T1G453ZUP"
+}
+[07/24/18, 09:31:03:777] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T1G453ZUP",
+  "token": "xoxs-⋯"
+}
+[07/24/18, 09:31:03:778] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T1G453ZUP",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[07/24/18, 09:31:04:955] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V2"
+}
+[07/24/18, 09:31:04:963] info: loadAsmModule: loading hunspell-asm module
+[07/24/18, 09:31:05:121] info: loadAsmModule: asm module loaded successfully
+[07/24/18, 09:31:05:121] info: SpellChecker: Starting spellchecker with language detector
+[07/24/18, 09:31:05:121] info: SpellChecker::enableSpellCheckerLanguageDetector: enable spellchecker language detector
+[07/24/18, 09:31:05:121] info: SpellChecker::startWithDictionary: Starting language detector with preloaded dict from last used language en
+[07/24/18, 09:31:05:269] info: download: downloading dictionary for 'en-us'
+[07/24/18, 09:31:05:270] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.aff",
+  "cachePolicy": "default"
+}
+[07/24/18, 09:31:05:275] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.dic",
+  "cachePolicy": "default"
+}
+[07/24/18, 09:31:05:280] info: dictionaryDownloader: verifying hash
+[07/24/18, 09:31:05:299] info: SpellChecker::downloadDictionary: Dictionary is ready for 
+{
+  "language": "en"
+}
+[07/24/18, 09:31:05:329] info: assignSpellchecker: spellCheckerTable added new checker for 'en'
+[07/24/18, 09:31:05:331] info: SpellChecker::prepareDictionary: Dictionary buffer for 'en' is loaded into spellchecker
+[07/24/18, 09:31:05:331] info: switchDictionary: switching dictionary to check spell from 'null' to 'en'
+[07/24/18, 09:31:05:332] info: SpellChecker::switchDictionary: SpellChecker enabled for language
+{
+  "language": "en"
+}
+[07/24/18, 09:31:16:918] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/24/18, 09:31:16:960] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/24/18, 09:31:19:916] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/24/18, 09:31:19:946] info: Store: SELECT_CHANNEL C2F0ZH9T7
+[07/24/18, 09:31:20:218] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/24/18, 09:31:20:247] info: Store: SELECT_CHANNEL C1G4577UM
+[07/24/18, 09:31:20:427] error: Jul-24 09:31:20.427 file:FBUUPGNTS (slurpFilesFromMessagesModern) has reactions in local model, but we are upserting an object that does NOT have reactions, which seems suspicious
+[07/24/18, 09:31:23:118] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/24/18, 09:31:23:241] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/24/18, 09:31:23:464] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/24/18, 09:31:23:491] info: Store: SELECT_CHANNEL C1G4AJ96D
+[07/24/18, 09:31:25:567] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/24/18, 09:31:25:633] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/24/18, 09:31:26:499] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-U7BQK19DM-e204842bac22-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "4RMWsJhWnNMjPAp",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1532417488.000346&team=T1G453ZUP",
+  "msg": "1532417488.000346",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/24/18, 09:31:27:013] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    -1918,
+    2
+  ],
+  "size": [
+    956,
+    1057
+  ]
+}
+[07/24/18, 09:32:40:783] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBJKHGFGD-3de9d49941bd-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "PZ36T0ijOZrZpRV",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1532417563.000090&team=T1G453ZUP",
+  "msg": "1532417563.000090",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/24/18, 09:32:54:849] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBJKHGFGD-3de9d49941bd-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "E93Kt1sPvxQxA1m",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1532417577.000094&team=T1G453ZUP",
+  "msg": "1532417577.000094",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/24/18, 09:33:13:432] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBJKHGFGD-3de9d49941bd-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "4RMWs7tWnNMNlML",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1532417595.000316&team=T1G453ZUP",
+  "msg": "1532417595.000316",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/24/18, 09:33:37:394] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-U1QDDT22V-334f205a53be-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "W73WfDun4LpOn89",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1532417619.000315&team=T1G453ZUP",
+  "msg": "1532417619.000315",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/24/18, 09:33:43:187] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    2,
+    2
+  ],
+  "size": [
+    956,
+    1057
+  ]
+}
+[07/24/18, 09:33:44:866] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-U1QDDT22V-334f205a53be-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "wmJnUVCKMQ8RQLw",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1532417627.000122&team=T1G453ZUP",
+  "msg": "1532417627.000122",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/24/18, 09:33:45:618] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    0
+  ],
+  "size": [
+    956,
+    1057
+  ]
+}
+[07/24/18, 09:34:06:510] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBJKHGFGD-3de9d49941bd-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "1rJVukFXgO1mEPD",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1532417649.000006&team=T1G453ZUP",
+  "msg": "1532417649.000006",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/24/18, 09:34:22:176] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-U1QDDT22V-334f205a53be-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "59NAtRH2rl84pY1",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1532417664.000234&team=T1G453ZUP",
+  "msg": "1532417664.000234",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/24/18, 09:34:34:834] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-U1QDDT22V-334f205a53be-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "nrwGurIZQ0Evq0r",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1532417677.000086&team=T1G453ZUP",
+  "msg": "1532417677.000086",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/24/18, 09:34:42:701] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBJKHGFGD-3de9d49941bd-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "E93KtOSPvxQy7KB",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1532417685.000040&team=T1G453ZUP",
+  "msg": "1532417685.000040",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/24/18, 09:34:56:650] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-U1QDDT22V-334f205a53be-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "6ROYsXT5K2Ljpk9",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1532417699.000002&team=T1G453ZUP",
+  "msg": "1532417699.000002",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/24/18, 09:35:38:437] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBJKHGFGD-3de9d49941bd-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "oQxATJU6x7o581Q",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1532417740.000318&team=T1G453ZUP",
+  "msg": "1532417740.000318",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}

@@ -1,0 +1,5 @@
+2018/05/30-18:26:23.387 31494 Reusing MANIFEST /home/fleip/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/05/30-18:26:23.387 31494 Recovering log #18
+2018/05/30-18:26:23.413 31494 Level-0 table #21: started
+2018/05/30-18:26:23.433 31494 Level-0 table #21: 4873061 bytes OK
+2018/05/30-18:26:23.435 31494 Delete type=0 #18

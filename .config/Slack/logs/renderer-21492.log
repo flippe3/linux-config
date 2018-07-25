@@ -1,0 +1,218 @@
+[07/19/18, 11:35:22:615] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[07/19/18, 11:35:22:615] info: ║      Slack 3.2.1, linux 4.17.5-1-ARCH on x64 at 07/19/18, 11:35:22:613      ║
+[07/19/18, 11:35:22:615] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[07/19/18, 11:35:22:675] info: Initializing local storage instance at path: /home/fleip/.config/Slack/local-settings.json
+[07/19/18, 11:35:22:886] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: cannot open shared object file: No such file or directory",
+    "stack": "Error: libCallsCore.so: cannot open shared object file: No such file or directory\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[07/19/18, 11:35:22:886] error: Desktop module calls failed to load
+[07/19/18, 11:35:22:901] info: cld3::loadModule: loading cld3 module
+[07/19/18, 11:35:22:917] info: cld3Loader::loadModule: running environment is NODE
+[07/19/18, 11:35:22:917] info: cld3Loader::loadModule: constructed module object for runtime
+[07/19/18, 11:35:23:023] info: cld3Loader::initializeRuntime: successfully initialized module
+[07/19/18, 11:35:23:023] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[07/19/18, 11:35:23:032] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, v2 spellchecker is not available
+[07/19/18, 11:35:23:042] info: Main window preload script finished
+{
+  "readyTime": 620.001703
+}
+[07/19/18, 11:35:24:959] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 11:35:25:448] error: Jul-19 11:35:25.448 file:FBT633EHY (slurpFilesFromMessagesModern) has reactions in local model, but we are upserting an object that does NOT have reactions, which seems suspicious
+[07/19/18, 11:35:25:528] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/19/18, 11:35:26:164] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 11:35:26:376] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/19/18, 11:35:26:376] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 11:35:26:376] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T1G453ZUP",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[07/19/18, 11:35:26:506] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 11:35:26:506] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 11:35:26:507] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "webapp-loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 11:35:26:618] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": null,
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 11:35:26:829] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V2"
+}
+[07/19/18, 11:35:26:838] info: loadAsmModule: loading hunspell-asm module
+[07/19/18, 11:35:27:042] info: loadAsmModule: asm module loaded successfully
+[07/19/18, 11:35:27:042] info: SpellChecker: Starting spellchecker with language detector
+[07/19/18, 11:35:27:042] info: SpellChecker::enableSpellCheckerLanguageDetector: enable spellchecker language detector
+[07/19/18, 11:35:27:043] info: SpellChecker::startWithDictionary: Starting language detector with preloaded dict from last used language en
+[07/19/18, 11:35:27:372] info: download: downloading dictionary for 'en-us'
+[07/19/18, 11:35:27:373] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.aff",
+  "cachePolicy": "default"
+}
+[07/19/18, 11:35:27:376] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.dic",
+  "cachePolicy": "default"
+}
+[07/19/18, 11:35:27:380] info: dictionaryDownloader: verifying hash
+[07/19/18, 11:35:27:405] info: SpellChecker::downloadDictionary: Dictionary is ready for 
+{
+  "language": "en"
+}
+[07/19/18, 11:35:27:443] info: assignSpellchecker: spellCheckerTable added new checker for 'en'
+[07/19/18, 11:35:27:448] info: SpellChecker::prepareDictionary: Dictionary buffer for 'en' is loaded into spellchecker
+[07/19/18, 11:35:27:449] info: switchDictionary: switching dictionary to check spell from 'null' to 'en'
+[07/19/18, 11:35:27:449] info: SpellChecker::switchDictionary: SpellChecker enabled for language
+{
+  "language": "en"
+}
+[07/19/18, 12:11:31:597] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/19/18, 12:11:31:667] info: Store: SELECT_CHANNEL DB8HPAZ17
+[07/19/18, 12:11:48:017] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/19/18, 12:11:48:134] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/19/18, 12:12:06:057] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    -3838,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/19/18, 12:12:20:124] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1922,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/19/18, 12:12:23:039] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/19/18, 12:12:23:135] info: Store: SELECT_CHANNEL DB8HPAZ17
+[07/19/18, 12:13:10:191] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/19/18, 12:13:10:227] info: Store: SELECT_CHANNEL DBD4CFCMQ
+[07/19/18, 12:13:10:705] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/19/18, 12:13:10:748] info: Store: SELECT_CHANNEL DBE6TST09
+[07/19/18, 12:13:12:293] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/19/18, 12:13:12:410] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/19/18, 12:14:39:954] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/19/18, 12:14:40:043] info: Store: SELECT_CHANNEL DB8HPAZ17
+[07/19/18, 12:15:05:037] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/19/18, 12:15:05:154] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/19/18, 12:15:07:086] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/19/18, 12:15:07:170] info: Store: SELECT_CHANNEL DB8HPAZ17
+[07/19/18, 12:16:15:070] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/19/18, 12:16:15:169] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/19/18, 12:41:04:022] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    2880,
+    201
+  ],
+  "size": [
+    956,
+    1057
+  ]
+}
+[07/19/18, 12:41:06:235] info: Store: SET_SUSPEND_STATUS
+[07/19/18, 12:41:06:237] error: Jul-19 12:41:06.237 SOCKET-MANAGER (T1G453ZUP) Closing socket because #4102: client is going to sleep
+[07/19/18, 15:27:55:658] info: Store: SET_SUSPEND_STATUS true
+[07/19/18, 15:27:55:675] error: Jul-19 15:27:55.675 SOCKET-MANAGER (T1G453ZUP) Closing socket because #4108: unexpected socket closure
+[07/19/18, 15:27:55:917] info: Store: SET_NETWORK_STATUS offline
+[07/19/18, 15:28:02:822] info: Store: RELOAD
+{
+  "everything": false
+}
+[07/19/18, 15:28:02:825] info: Window is unloading, window.desktop is no longer accessible
+[07/19/18, 15:28:03:599] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[07/19/18, 15:28:03:690] info: Store: BACKGROUND_CLIENTS_INITIALIZED true

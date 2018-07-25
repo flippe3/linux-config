@@ -1,0 +1,217 @@
+[07/23/18, 21:36:34:465] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[07/23/18, 21:36:34:465] info: ║      Slack 3.2.1, linux 4.17.6-1-ARCH on x64 at 07/23/18, 21:36:34:462      ║
+[07/23/18, 21:36:34:465] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[07/23/18, 21:36:34:590] info: Initializing local storage instance at path: /home/fleip/.config/Slack/local-settings.json
+[07/23/18, 21:36:34:697] info: NetworkStatus: Waiting for network online…
+[07/23/18, 21:36:34:888] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[07/23/18, 21:36:34:890] info: Don't start background client because T1G453ZUP is selected team
+[07/23/18, 21:36:34:895] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[07/23/18, 21:36:35:029] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[07/23/18, 21:36:35:431] info: Store: SET_NETWORK_STATUS online
+[07/23/18, 21:36:42:480] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 21:36:42:484] info: Store: MAIN_WINDOW_SHOWN
+[07/23/18, 21:36:42:729] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 21:36:42:846] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 21:36:42:848] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[07/23/18, 21:36:42:849] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[07/23/18, 21:36:43:493] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1922,
+    119
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/23/18, 21:36:43:498] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 21:36:43:581] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 21:36:43:583] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 21:36:43:665] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T1G453ZUP",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[07/23/18, 21:36:43:878] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": null,
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 21:36:43:880] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T1G453ZUP",
+  "token": "xoxs-⋯"
+}
+[07/23/18, 21:37:11:171] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/23/18, 21:37:48:698] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/23/18, 21:38:00:947] info: Store: SELECT_CHANNEL GBHRY1DQ9
+[07/23/18, 21:38:04:543] info: Store: SELECT_CHANNEL CA7GHA0TW
+[07/23/18, 21:38:05:397] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/23/18, 21:38:07:793] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/23/18, 21:38:19:293] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/23/18, 21:38:37:136] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/23/18, 21:38:50:875] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    2880,
+    117
+  ],
+  "size": [
+    956,
+    1057
+  ]
+}
+[07/23/18, 21:38:52:027] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1920,
+    117
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/23/18, 21:38:58:035] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    2880,
+    117
+  ],
+  "size": [
+    956,
+    1057
+  ]
+}
+[07/23/18, 21:41:17:414] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1920,
+    117
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/23/18, 21:41:18:967] info: Store: SELECT_CHANNEL DBEJUGTC3
+[07/23/18, 21:42:41:673] info: Store: FOREGROUND_APP
+[07/23/18, 21:42:42:676] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1920,
+    117
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/23/18, 21:42:44:343] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 21:48:03:237] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    -3838,
+    119
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/23/18, 21:48:04:714] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1922,
+    119
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/23/18, 21:48:07:017] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1922,
+    119
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/23/18, 21:50:07:377] info: Store: SELECT_CHANNEL DBN5JGNF7
+[07/23/18, 21:50:12:946] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 21:56:58:793] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/23/18, 21:57:05:876] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1920,
+    117
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}

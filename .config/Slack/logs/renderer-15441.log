@@ -1,0 +1,22 @@
+[07/19/18, 15:28:04:230] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[07/19/18, 15:28:04:230] info: ║      Slack 3.2.1, linux 4.17.5-1-ARCH on x64 at 07/19/18, 15:28:04:228      ║
+[07/19/18, 15:28:04:230] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[07/19/18, 15:28:04:308] info: Initializing local storage instance at path: /home/fleip/.config/Slack/local-settings.json
+[07/19/18, 15:28:04:512] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: cannot open shared object file: No such file or directory",
+    "stack": "Error: libCallsCore.so: cannot open shared object file: No such file or directory\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[07/19/18, 15:28:04:513] error: Desktop module calls failed to load
+[07/19/18, 15:28:04:534] info: cld3::loadModule: loading cld3 module
+[07/19/18, 15:28:04:551] info: cld3Loader::loadModule: running environment is NODE
+[07/19/18, 15:28:04:551] info: cld3Loader::loadModule: constructed module object for runtime
+[07/19/18, 15:28:04:653] info: cld3Loader::initializeRuntime: successfully initialized module
+[07/19/18, 15:28:04:653] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[07/19/18, 15:28:04:661] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, v2 spellchecker is not available
+[07/19/18, 15:28:04:669] info: Main window preload script finished
+{
+  "readyTime": 653.633371
+}

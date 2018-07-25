@@ -1,0 +1,21 @@
+2018/05/17-20:30:35.609 1857 Reusing MANIFEST /home/fleip/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/05/17-20:30:35.610 1857 Recovering log #10
+2018/05/17-20:30:35.614 1857 Reusing old log /home/fleip/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000010.log 
+2018/05/17-20:30:39.783 2583 Level-0 table #14: started
+2018/05/17-20:30:39.805 2583 Level-0 table #14: 4392371 bytes OK
+2018/05/17-20:30:39.807 2583 Delete type=0 #10
+2018/05/17-20:31:17.966 2583 Level-0 table #16: started
+2018/05/17-20:31:17.990 2583 Level-0 table #16: 4812050 bytes OK
+2018/05/17-20:31:17.992 2583 Delete type=0 #13
+2018/05/17-20:31:17.993 2583 Compacting 4@0 + 1@1 files
+2018/05/17-20:31:18.029 2583 Generated table #17@0: 23 keys, 1973742 bytes
+2018/05/17-20:31:18.029 2583 Compacted 4@0 + 1@1 files => 1973742 bytes
+2018/05/17-20:31:18.032 2583 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/05/17-20:31:18.033 2583 Delete type=2 #16
+2018/05/17-20:31:18.034 2583 Delete type=2 #9
+2018/05/17-20:31:18.035 2583 Delete type=2 #11
+2018/05/17-20:31:18.036 2583 Delete type=2 #14
+2018/05/17-20:31:18.036 2583 Delete type=2 #7
+2018/05/17-20:35:03.249 2583 Level-0 table #19: started
+2018/05/17-20:35:03.269 2583 Level-0 table #19: 4692326 bytes OK
+2018/05/17-20:35:03.271 2583 Delete type=0 #15

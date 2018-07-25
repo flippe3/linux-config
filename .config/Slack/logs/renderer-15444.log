@@ -1,0 +1,111 @@
+[07/19/18, 15:28:03:128] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[07/19/18, 15:28:03:129] info: ║      Slack 3.2.1, linux 4.17.5-1-ARCH on x64 at 07/19/18, 15:28:03:126      ║
+[07/19/18, 15:28:03:129] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[07/19/18, 15:28:03:262] info: Initializing local storage instance at path: /home/fleip/.config/Slack/local-settings.json
+[07/19/18, 15:28:03:378] info: NetworkStatus: Waiting for network online…
+[07/19/18, 15:28:03:618] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[07/19/18, 15:28:03:622] info: Don't start background client because T1G453ZUP is selected team
+[07/19/18, 15:28:03:693] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[07/19/18, 15:28:03:738] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[07/19/18, 15:28:04:140] info: Store: SET_NETWORK_STATUS online
+[07/19/18, 15:28:04:142] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[07/19/18, 15:30:38:588] info: Store: FOREGROUND_APP
+[07/19/18, 15:30:39:599] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1920,
+    201
+  ],
+  "size": [
+    956,
+    1057
+  ]
+}
+[07/19/18, 15:45:50:834] info: Store: FOREGROUND_APP
+[07/19/18, 15:45:51:851] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1920,
+    201
+  ],
+  "size": [
+    956,
+    1057
+  ]
+}
+[07/19/18, 16:19:25:272] info: Store: SET_SUSPEND_STATUS
+[07/19/18, 17:01:58:671] info: Store: SET_SUSPEND_STATUS true
+[07/19/18, 17:01:59:094] info: Store: SET_NETWORK_STATUS offline
+[07/19/18, 17:02:02:738] info: NetworkStatus: Waiting for network online…
+[07/19/18, 17:02:03:096] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[07/19/18, 17:02:03:096] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[07/19/18, 17:02:09:314] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[07/19/18, 17:02:10:093] info: Store: SET_NETWORK_STATUS online
+[07/19/18, 17:02:10:094] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[07/19/18, 17:34:33:707] info: Store: SET_SUSPEND_STATUS
+[07/19/18, 18:08:04:112] info: NetworkStatus: Waiting for network online…
+[07/19/18, 18:08:04:171] info: Store: SET_SUSPEND_STATUS true
+[07/19/18, 18:08:04:231] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[07/19/18, 18:08:04:231] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[07/19/18, 18:08:05:231] info: Store: SET_NETWORK_STATUS offline
+[07/19/18, 18:08:09:168] info: NetworkStatus: Waiting for network online…
+[07/19/18, 18:08:09:232] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[07/19/18, 18:08:09:233] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[07/19/18, 18:08:15:428] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[07/19/18, 18:08:16:230] info: Store: SET_NETWORK_STATUS online
+[07/19/18, 18:08:16:231] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[07/19/18, 18:08:18:563] info: Store: FOREGROUND_APP
+[07/19/18, 18:08:19:568] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1920,
+    201
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/19/18, 18:08:20:741] info: Store: RELOAD
+{
+  "everything": false
+}

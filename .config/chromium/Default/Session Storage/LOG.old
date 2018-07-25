@@ -1,0 +1,9 @@
+2018/07/25-09:15:36.447 1639 Reusing MANIFEST /home/fleip/.config/chromium/Default/Session Storage/MANIFEST-000001
+2018/07/25-09:15:36.447 1639 Recovering log #48
+2018/07/25-09:15:36.448 1639 Reusing old log /home/fleip/.config/chromium/Default/Session Storage/000048.log 
+2018/07/25-09:19:23.777 3113 Level-0 table #53: started
+2018/07/25-09:19:23.781 3113 Level-0 table #53: 14023 bytes OK
+2018/07/25-09:19:23.785 3113 Delete type=0 #48
+2018/07/25-09:19:25.473 3113 Level-0 table #55: started
+2018/07/25-09:19:25.480 3113 Level-0 table #55: 41990 bytes OK
+2018/07/25-09:19:25.485 3113 Delete type=0 #52

@@ -1,0 +1,13 @@
+[07/17/18, 12:34:24:658] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[07/17/18, 12:34:24:658] info: ║      Slack 3.2.1, linux 4.17.5-1-ARCH on x64 at 07/17/18, 12:34:24:656      ║
+[07/17/18, 12:34:24:658] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[07/17/18, 12:34:24:724] info: Initializing local storage instance at path: /home/fleip/.config/Slack/local-settings.json
+[07/17/18, 12:34:24:991] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[07/17/18, 12:34:24:995] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[07/17/18, 12:34:25:620] info: Store: SET_NETWORK_STATUS online
+[07/17/18, 12:34:25:623] info: Store: MAIN_WINDOW_SHOWN
+[07/17/18, 12:34:25:642] info: Store: ADD_WINDOW
+{
+  "id": 3,
+  "type": "sign-in"
+}

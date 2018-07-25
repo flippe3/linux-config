@@ -1,0 +1,3 @@
+2018/07/25-21:02:35.650 25401 Reusing MANIFEST /home/fleip/.config/chromium/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/07/25-21:02:35.650 25401 Recovering log #3
+2018/07/25-21:02:35.652 25401 Reusing old log /home/fleip/.config/chromium/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/000003.log 

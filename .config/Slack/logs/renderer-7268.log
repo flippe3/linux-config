@@ -1,0 +1,14 @@
+[07/24/18, 09:30:58:872] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[07/24/18, 09:30:58:873] info: ║      Slack 3.2.1, linux 4.17.6-1-ARCH on x64 at 07/24/18, 09:30:58:869      ║
+[07/24/18, 09:30:58:873] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[07/24/18, 09:30:58:940] info: Initializing local storage instance at path: /home/fleip/.config/Slack/local-settings.json
+[07/24/18, 09:30:59:266] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[07/24/18, 09:30:59:268] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[07/24/18, 09:30:59:816] info: Store: SET_NETWORK_STATUS online
+[07/24/18, 09:31:02:623] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/24/18, 09:31:02:626] info: Store: MAIN_WINDOW_SHOWN

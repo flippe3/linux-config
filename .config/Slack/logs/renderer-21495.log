@@ -1,0 +1,139 @@
+[07/19/18, 11:35:21:382] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[07/19/18, 11:35:21:382] info: ║      Slack 3.2.1, linux 4.17.5-1-ARCH on x64 at 07/19/18, 11:35:21:380      ║
+[07/19/18, 11:35:21:382] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[07/19/18, 11:35:21:504] info: Initializing local storage instance at path: /home/fleip/.config/Slack/local-settings.json
+[07/19/18, 11:35:21:613] info: NetworkStatus: Waiting for network online…
+[07/19/18, 11:35:21:770] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[07/19/18, 11:35:21:771] info: Don't start background client because T1G453ZUP is selected team
+[07/19/18, 11:35:21:776] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[07/19/18, 11:35:21:906] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[07/19/18, 11:35:22:310] info: Store: SET_NETWORK_STATUS online
+[07/19/18, 11:35:24:957] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 11:35:25:211] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 11:35:25:529] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/19/18, 11:35:25:721] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 11:35:25:737] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T1G453ZUP",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[07/19/18, 11:35:26:239] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 11:35:26:312] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 11:35:26:317] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "webapp-loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 11:35:26:510] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": null,
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 12:11:31:599] info: Store: SELECT_CHANNEL DB8HPAZ17
+[07/19/18, 12:11:48:020] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/19/18, 12:12:06:057] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    -3838,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/19/18, 12:12:20:124] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1922,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/19/18, 12:12:23:042] info: Store: SELECT_CHANNEL DB8HPAZ17
+[07/19/18, 12:13:10:195] info: Store: SELECT_CHANNEL DBD4CFCMQ
+[07/19/18, 12:13:10:708] info: Store: SELECT_CHANNEL DBE6TST09
+[07/19/18, 12:13:12:295] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/19/18, 12:14:39:959] info: Store: SELECT_CHANNEL DB8HPAZ17
+[07/19/18, 12:15:05:041] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/19/18, 12:15:07:092] info: Store: SELECT_CHANNEL DB8HPAZ17
+[07/19/18, 12:16:15:073] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/19/18, 12:41:04:022] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    2880,
+    201
+  ],
+  "size": [
+    956,
+    1057
+  ]
+}
+[07/19/18, 12:41:06:234] info: Store: SET_SUSPEND_STATUS
+[07/19/18, 15:27:55:658] info: Store: SET_SUSPEND_STATUS true
+[07/19/18, 15:27:55:912] info: Store: SET_NETWORK_STATUS offline
+[07/19/18, 15:28:00:255] info: NetworkStatus: Waiting for network online…
+[07/19/18, 15:28:00:262] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[07/19/18, 15:28:00:262] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[07/19/18, 15:28:02:822] info: Store: RELOAD
+{
+  "everything": false
+}

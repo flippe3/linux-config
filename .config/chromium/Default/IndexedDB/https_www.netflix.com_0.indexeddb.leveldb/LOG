@@ -1,0 +1,6 @@
+2018/07/24-12:45:27.822 28688 Reusing MANIFEST /home/fleip/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/07/24-12:45:27.822 28688 Recovering log #78
+2018/07/24-12:45:27.830 28688 Reusing old log /home/fleip/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000078.log 
+2018/07/24-13:25:34.943 3242 Level-0 table #83: started
+2018/07/24-13:25:34.962 3242 Level-0 table #83: 2126726 bytes OK
+2018/07/24-13:25:34.966 3242 Delete type=0 #78

@@ -1,0 +1,271 @@
+{
+   "checksum": "eeb86d63397804de49887bfcbe58052e",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "12994247144048623",
+            "id": "19",
+            "meta_info": {
+               "last_visited_desktop": "13176925580454127"
+            },
+            "name": "YouTube - Broadcast Yourself.",
+            "sync_transaction_version": "1521",
+            "type": "url",
+            "url": "http://www.youtube.com/"
+         }, {
+            "date_added": "13140262394241173",
+            "id": "21",
+            "meta_info": {
+               "last_visited_desktop": "13176929246350041"
+            },
+            "name": "Twitter",
+            "sync_transaction_version": "1525",
+            "type": "url",
+            "url": "https://twitter.com/"
+         }, {
+            "date_added": "13154353973134223",
+            "id": "24",
+            "meta_info": {
+               "last_visited": "13176895780220449",
+               "last_visited_desktop": "13176855251454308"
+            },
+            "name": "Docs",
+            "sync_transaction_version": "1505",
+            "type": "url",
+            "url": "https://docs.google.com/document/u/0/"
+         }, {
+            "date_added": "13160828058379943",
+            "id": "28",
+            "meta_info": {
+               "last_visited_desktop": "13175719392282605"
+            },
+            "name": "Klasser",
+            "sync_transaction_version": "1279",
+            "type": "url",
+            "url": "https://classroom.google.com/u/2/h"
+         }, {
+            "date_added": "13161036509311125",
+            "id": "31",
+            "meta_info": {
+               "last_visited_desktop": "13175719724562790"
+            },
+            "name": "Min enhet – Google Drive",
+            "sync_transaction_version": "1279",
+            "type": "url",
+            "url": "https://drive.google.com/drive/u/0/my-drive"
+         }, {
+            "date_added": "13152560298800435",
+            "id": "38",
+            "meta_info": {
+               "last_visited_desktop": "13176078736893488"
+            },
+            "name": "MIT AI",
+            "sync_transaction_version": "1279",
+            "type": "url",
+            "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/calendar/"
+         }, {
+            "date_added": "13166570440578123",
+            "id": "37",
+            "meta_info": {
+               "last_visited_desktop": "13175240992675457"
+            },
+            "name": "Kattis",
+            "sync_transaction_version": "1279",
+            "type": "url",
+            "url": "https://open.kattis.com/"
+         }, {
+            "date_added": "13175503140143519",
+            "id": "45",
+            "meta_info": {
+               "last_visited_desktop": "13175651631472148"
+            },
+            "name": "Support – PINE64",
+            "sync_transaction_version": "1286",
+            "type": "url",
+            "url": "https://www.pine64.org/?page_id=702"
+         }, {
+            "date_added": "13175503521100910",
+            "id": "44",
+            "meta_info": {
+               "last_visited_desktop": "13175503521103238"
+            },
+            "name": "The GNU Operating System and the Free Software Movement",
+            "sync_transaction_version": "1285",
+            "type": "url",
+            "url": "https://www.gnu.org/"
+         }, {
+            "date_added": "13175503779674999",
+            "id": "43",
+            "meta_info": {
+               "last_visited_desktop": "13175503779677504"
+            },
+            "name": "emacs",
+            "sync_transaction_version": "1284",
+            "type": "url",
+            "url": "https://meta.intra.42.fr/articles/how-to-connect-to-42-s-wi-fi-as-student-with-an-ubuntu-linux-computer"
+         } ],
+         "date_added": "13160500869837508",
+         "date_modified": "13176925576424041",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "children": [ {
+               "date_added": "12997092759798000",
+               "id": "9",
+               "name": "Alto Zephyr ZMX122FX - Digitalt mixerbord - Hitta lägsta pris, omdömen och information",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.prisjakt.nu/produkt.php?p=1082621"
+            }, {
+               "date_added": "12997102317339461",
+               "id": "10",
+               "name": "Alto ZMX122FX | Billebro Eventure Ljud Ljus DJ PA Karaoke Uthyrning",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.billebro.se/myshop/myshop_start.php?APPID=2&PRID=6673&XID=Prisjakt&ref=prisjakt"
+            }, {
+               "date_added": "12997092759798000",
+               "id": "11",
+               "name": "Alto ZMX122FX | Billebro Eventure Ljud Ljus DJ PA Karaoke Uthyrning",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.billebro.se/myshop/myshop_start.php?APPID=3&PRID=6673&DSPTEXT=ONLY"
+            }, {
+               "date_added": "12997102317340461",
+               "id": "12",
+               "name": "Köp ALTO ZEPHYR ZMX122FX MIXERBORD hos - Conrad Elektronik Konsoler mixerbord",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.conrad.se/?websale7=conrad-swe&shopid=conrad-swe&pi=310903&ws_tp1=cp&ref=prisjakt&subref=310903&utm_source=prisjakt&utm_medium=cpc&utm_campaign=prisjakt_feed&utm_content=310903"
+            }, {
+               "date_added": "12997102317340461",
+               "id": "13",
+               "name": "Shure Beta 58 på www.emusic.se",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.emusic.se/product/19086/Shure-Beta-58"
+            }, {
+               "date_added": "12997102317340461",
+               "id": "14",
+               "name": "mixerbord för nybörjare - Sök på Google",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://www.google.se/search?aq=f&oq=mixerbord+f%C3%B6r+nyb%C3%B6rjare&sugexp=chrome,mod=0&sourceid=chrome&ie=UTF-8&q=mixerbord+f%C3%B6r+nyb%C3%B6rjare"
+            }, {
+               "date_added": "12997102317341461",
+               "id": "15",
+               "meta_info": {
+                  "last_visited": "13160225183932490",
+                  "last_visited_desktop": "13176930530096030"
+               },
+               "name": "Facebook",
+               "sync_transaction_version": "1527",
+               "type": "url",
+               "url": "http://www.facebook.com/"
+            }, {
+               "date_added": "12997102317341461",
+               "id": "16",
+               "name": "Köp BEHRINGER XENYX 1202 MIXERBORD hos - Conrad Elektronik Konsoler mixerbord",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.conrad.se/websale7/?Ctx=%7bver%2f7%2fver%7d%7bst%2f3ec%2fst%7d%7bcmd%2f0%2fcmd%7d%7bm%2fwebsale%2fm%7d%7bs%2fconrad%2dswe%2fs%7d%7bl%2f01%2daa%2fl%7d%7btpl%2f01%2daa%2ftpl%5fread%5fprod%5frating%2ehtm%2ftpl%7d%7bp1%2f4546277f8332741f5b4af130561a05c6%2fp1%7d%7bmd5%2fe7ac0e7beba17ef6beb194e00716885d%2fmd5%7d&act=product&prod_index=302560&cat_index=SHOP_AREA_17124_1413010&otp1=tablink1"
+            }, {
+               "date_added": "12997102317341461",
+               "id": "17",
+               "meta_info": {
+                  "last_visited_desktop": "13160320828304905"
+               },
+               "name": "mic till mixerbord - Sök på Google",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://www.google.se/search?oq=mic+till+mixerbord&sugexp=chrome,mod=0&sourceid=chrome&ie=UTF-8&q=mic+till+mixerbord"
+            }, {
+               "date_added": "12997092759798000",
+               "id": "18",
+               "meta_info": {
+                  "last_visited_desktop": "13147208570176335"
+               },
+               "name": "Zoom H2n - Inspelning/Porta - Hitta lägsta pris, omdömen och information",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.prisjakt.nu/produkt.php?p=945618"
+            }, {
+               "date_added": "13172281540279069",
+               "id": "41",
+               "meta_info": {
+                  "last_visited_desktop": "13172281546517263"
+               },
+               "name": "ema",
+               "sync_transaction_version": "1096",
+               "type": "url",
+               "url": "https://www.gnu.org/software/emacs/manual/html_node/elisp/Buffer-File-Name.html"
+            }, {
+               "date_added": "13175232167192928",
+               "id": "46",
+               "meta_info": {
+                  "last_visited_desktop": "13175233251335556"
+               },
+               "name": "em",
+               "sync_transaction_version": "1281",
+               "type": "url",
+               "url": "https://cdn.intra.42.fr/pdf/pdf/580/d11.en.pdf"
+            }, {
+               "date_added": "13175526573230621",
+               "id": "47",
+               "meta_info": {
+                  "last_visited_desktop": "13175526573231266"
+               },
+               "name": "How to set the default browser? : ManjaroLinux",
+               "sync_transaction_version": "1281",
+               "type": "url",
+               "url": "https://www.reddit.com/r/ManjaroLinux/comments/7k8xi6/how_to_set_the_default_browser/"
+            } ],
+            "date_added": "13160500898548986",
+            "date_modified": "13176854802728849",
+            "id": "6",
+            "name": "Ny mapp",
+            "sync_transaction_version": "1",
+            "type": "folder"
+         }, {
+            "date_added": "12997092759798000",
+            "id": "7",
+            "name": "Behringer B2-PRO studiomik | Billebro Eventure Ljud Ljus DJ PA Karaoke Uthyrning",
+            "sync_transaction_version": "7",
+            "type": "url",
+            "url": "http://www.billebro.se/myshop/myshop_start.php?PRID=2955"
+         }, {
+            "date_added": "13076784755143816",
+            "id": "8",
+            "name": "Unity Web Player | Lost",
+            "sync_transaction_version": "97",
+            "type": "url",
+            "url": "http://readme.parseapp.com/"
+         } ],
+         "date_added": "13160500869837511",
+         "date_modified": "13169321781126920",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "1527",
+      "synced": {
+         "children": [ {
+            "date_added": "13117386048302898",
+            "id": "5",
+            "name": "Lövbiff med nudlar och grönsaker | By diadonna",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://bydiadonna.femina.se/lovbiff-med-nudlar-och-gronsaker/"
+         } ],
+         "date_added": "13160500869837512",
+         "date_modified": "13117386048302898",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

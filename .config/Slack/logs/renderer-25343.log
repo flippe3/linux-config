@@ -1,0 +1,394 @@
+[07/17/18, 22:18:29:131] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[07/17/18, 22:18:29:132] info: ║      Slack 3.2.1, linux 4.17.5-1-ARCH on x64 at 07/17/18, 22:18:29:129      ║
+[07/17/18, 22:18:29:132] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[07/17/18, 22:18:29:265] info: Initializing local storage instance at path: /home/fleip/.config/Slack/local-settings.json
+[07/17/18, 22:18:29:384] info: NetworkStatus: Waiting for network online…
+[07/17/18, 22:18:29:695] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[07/17/18, 22:18:29:696] info: Don't start background client because T1G453ZUP is selected team
+[07/17/18, 22:18:29:700] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[07/17/18, 22:18:29:771] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[07/17/18, 22:18:30:174] info: Store: SET_NETWORK_STATUS online
+[07/17/18, 22:18:30:175] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[07/17/18, 22:18:33:177] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 22:18:33:428] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 22:18:33:827] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/17/18, 22:18:34:027] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 22:18:34:032] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T1G453ZUP",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[07/17/18, 22:18:34:429] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 22:18:34:505] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 22:18:34:509] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "webapp-loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 22:18:34:699] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": null,
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 22:19:46:660] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    -1918,
+    203
+  ],
+  "size": [
+    956,
+    1057
+  ]
+}
+[07/17/18, 22:34:35:334] info: Store: SET_SUSPEND_STATUS
+[07/18/18, 06:43:51:705] info: Store: SET_SUSPEND_STATUS true
+[07/18/18, 06:43:51:910] info: Store: SET_NETWORK_STATUS offline
+[07/18/18, 06:43:56:758] info: NetworkStatus: Waiting for network online…
+[07/18/18, 06:43:56:761] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[07/18/18, 06:43:56:761] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[07/18/18, 06:43:59:223] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 06:43:59:361] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 06:44:01:917] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[07/18/18, 06:44:02:319] info: Store: SET_NETWORK_STATUS online
+[07/18/18, 06:44:02:320] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[07/18/18, 07:16:07:213] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    2882,
+    203
+  ],
+  "size": [
+    956,
+    1057
+  ]
+}
+[07/18/18, 07:16:08:402] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1920,
+    201
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 07:16:08:645] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/18/18, 07:16:08:984] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 07:16:13:949] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    -3838,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 07:16:15:919] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    -3838,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 07:17:55:698] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    -3838,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 08:01:58:163] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    -3838,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 08:02:26:652] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1922,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 08:02:28:424] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    -3838,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 08:02:31:591] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1922,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 08:02:35:227] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1922,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 08:02:37:389] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    -3838,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 08:02:43:809] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    -3838,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 08:04:03:579] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    -3838,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 08:07:56:567] info: Store: SET_SUSPEND_STATUS
+[07/18/18, 09:20:11:711] info: Store: SET_SUSPEND_STATUS true
+[07/18/18, 09:20:11:873] info: Store: SET_NETWORK_STATUS offline
+[07/18/18, 09:20:14:832] info: NetworkStatus: Waiting for network online…
+[07/18/18, 09:20:14:837] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[07/18/18, 09:20:14:837] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[07/18/18, 09:20:16:382] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 09:20:16:452] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 09:20:20:023] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[07/18/18, 09:20:20:425] info: Store: SET_NETWORK_STATUS online
+[07/18/18, 09:20:20:427] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[07/18/18, 09:53:47:694] info: Store: SET_SUSPEND_STATUS
+[07/18/18, 11:39:25:658] info: Store: SET_SUSPEND_STATUS true
+[07/18/18, 11:39:25:890] info: Store: SET_NETWORK_STATUS offline
+[07/18/18, 11:39:30:378] info: NetworkStatus: Waiting for network online…
+[07/18/18, 11:39:30:381] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[07/18/18, 11:39:30:381] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[07/18/18, 11:39:35:576] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[07/18/18, 11:39:35:977] info: Store: SET_NETWORK_STATUS online
+[07/18/18, 11:39:35:978] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[07/18/18, 11:39:58:805] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 11:39:58:867] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 11:46:39:265] info: Store: FOREGROUND_APP
+[07/18/18, 11:46:40:268] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1920,
+    201
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 11:46:48:995] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1922,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 11:46:52:465] info: Store: RELOAD
+{
+  "everything": false
+}

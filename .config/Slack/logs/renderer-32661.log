@@ -1,0 +1,410 @@
+[07/18/18, 11:46:53:769] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[07/18/18, 11:46:53:770] info: ║      Slack 3.2.1, linux 4.17.5-1-ARCH on x64 at 07/18/18, 11:46:53:767      ║
+[07/18/18, 11:46:53:770] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[07/18/18, 11:46:53:836] info: Initializing local storage instance at path: /home/fleip/.config/Slack/local-settings.json
+[07/18/18, 11:46:54:044] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: cannot open shared object file: No such file or directory",
+    "stack": "Error: libCallsCore.so: cannot open shared object file: No such file or directory\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[07/18/18, 11:46:54:044] error: Desktop module calls failed to load
+[07/18/18, 11:46:54:062] info: cld3::loadModule: loading cld3 module
+[07/18/18, 11:46:54:078] info: cld3Loader::loadModule: running environment is NODE
+[07/18/18, 11:46:54:078] info: cld3Loader::loadModule: constructed module object for runtime
+[07/18/18, 11:46:54:173] info: cld3Loader::initializeRuntime: successfully initialized module
+[07/18/18, 11:46:54:173] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[07/18/18, 11:46:54:181] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, v2 spellchecker is not available
+[07/18/18, 11:46:54:189] info: Main window preload script finished
+{
+  "readyTime": 627.406156
+}
+[07/18/18, 11:46:56:321] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 11:46:56:790] error: Jul-18 11:46:56.790 file:FBSGEMWHK (slurpFilesFromMessagesModern) has reactions in local model, but we are upserting an object that does NOT have reactions, which seems suspicious
+[07/18/18, 11:46:56:792] error: Jul-18 11:46:56.792 file:FBS77ECM8 (slurpFilesFromMessagesModern) has reactions in local model, but we are upserting an object that does NOT have reactions, which seems suspicious
+[07/18/18, 11:46:56:895] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/18/18, 11:46:57:397] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 11:46:57:588] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 11:46:57:588] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 11:46:57:588] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T1G453ZUP",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[07/18/18, 11:46:57:689] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 11:46:57:690] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 11:46:57:690] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "webapp-loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 11:46:57:797] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": null,
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 11:46:57:875] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V2"
+}
+[07/18/18, 11:46:57:884] info: loadAsmModule: loading hunspell-asm module
+[07/18/18, 11:46:58:060] info: loadAsmModule: asm module loaded successfully
+[07/18/18, 11:46:58:060] info: SpellChecker: Starting spellchecker with language detector
+[07/18/18, 11:46:58:060] info: SpellChecker::enableSpellCheckerLanguageDetector: enable spellchecker language detector
+[07/18/18, 11:46:58:060] info: SpellChecker::startWithDictionary: Starting language detector with preloaded dict from last used language en
+[07/18/18, 11:46:58:367] info: download: downloading dictionary for 'en-us'
+[07/18/18, 11:46:58:367] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.aff",
+  "cachePolicy": "default"
+}
+[07/18/18, 11:46:58:371] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.dic",
+  "cachePolicy": "default"
+}
+[07/18/18, 11:46:58:374] info: dictionaryDownloader: verifying hash
+[07/18/18, 11:46:58:391] info: SpellChecker::downloadDictionary: Dictionary is ready for 
+{
+  "language": "en"
+}
+[07/18/18, 11:46:58:424] info: assignSpellchecker: spellCheckerTable added new checker for 'en'
+[07/18/18, 11:46:58:425] info: SpellChecker::prepareDictionary: Dictionary buffer for 'en' is loaded into spellchecker
+[07/18/18, 11:46:58:426] info: switchDictionary: switching dictionary to check spell from 'null' to 'en'
+[07/18/18, 11:46:58:426] info: SpellChecker::switchDictionary: SpellChecker enabled for language
+{
+  "language": "en"
+}
+[07/18/18, 11:46:59:831] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/18/18, 11:46:59:906] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/18/18, 11:47:47:258] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1922,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 11:47:49:395] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1922,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 11:47:52:472] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    2880,
+    201
+  ],
+  "size": [
+    956,
+    1057
+  ]
+}
+[07/18/18, 11:48:03:496] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1920,
+    201
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 11:48:13:847] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/18/18, 11:48:13:896] info: Store: SELECT_CHANNEL CA7GHA0TW
+[07/18/18, 11:50:22:639] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    -3838,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 11:51:52:824] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1922,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 11:51:54:809] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/18/18, 11:51:54:850] info: Store: SELECT_CHANNEL C1G4577UM
+[07/18/18, 11:51:54:929] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1922,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 11:51:59:543] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/18/18, 11:51:59:647] info: Store: SELECT_CHANNEL CA7GHA0TW
+[07/18/18, 11:52:02:726] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    2880,
+    201
+  ],
+  "size": [
+    956,
+    1057
+  ]
+}
+[07/18/18, 11:52:34:539] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/18/18, 11:52:34:567] info: Store: SELECT_CHANNEL GBHRY1DQ9
+[07/18/18, 11:52:36:914] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/18/18, 11:52:36:974] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 11:52:38:079] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/18/18, 11:52:38:179] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/18/18, 11:56:47:859] info: Store: SET_SUSPEND_STATUS
+[07/18/18, 11:56:47:861] error: Jul-18 11:56:47.861 SOCKET-MANAGER (T1G453ZUP) Closing socket because #4102: client is going to sleep
+[07/18/18, 12:28:26:677] info: Store: SET_SUSPEND_STATUS true
+[07/18/18, 12:28:26:682] error: Jul-18 12:28:26.682 SOCKET-MANAGER (T1G453ZUP) Closing socket because #4108: unexpected socket closure
+[07/18/18, 12:28:26:880] info: Store: SET_NETWORK_STATUS offline
+[07/18/18, 12:28:37:871] info: Store: SET_NETWORK_STATUS online
+[07/18/18, 12:29:05:674] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 12:29:05:676] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 12:29:12:512] info: Store: FOREGROUND_APP
+[07/18/18, 12:29:13:516] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1920,
+    201
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 12:29:27:072] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/18/18, 12:29:27:152] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 12:29:31:065] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    -3838,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 12:52:17:154] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    -3838,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 12:52:39:705] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    -3838,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 15:00:56:803] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBAA00CLA-79e62418945c-512",
+  "channel": "CA7GHA0TW",
+  "content": "[REDACTED]",
+  "id": "vxnRCWhAGoo53ER",
+  "launchUri": "slack://channel?id=CA7GHA0TW&message=1531918933.000234&team=T1G453ZUP",
+  "msg": "1531918933.000234",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/18/18, 16:50:57:129] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1922,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 16:51:22:471] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    -3838,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 17:38:01:689] info: Store: SET_SUSPEND_STATUS
+[07/18/18, 17:38:01:690] error: Jul-18 17:38:01.690 SOCKET-MANAGER (T1G453ZUP) Closing socket because #4102: client is going to sleep
+[07/18/18, 18:34:09:694] info: Store: SET_SUSPEND_STATUS true
+[07/18/18, 18:34:09:715] error: Jul-18 18:34:09.714 SOCKET-MANAGER (T1G453ZUP) Closing socket because #4108: unexpected socket closure
+[07/18/18, 18:34:09:923] info: Store: SET_NETWORK_STATUS offline
+[07/18/18, 18:34:16:355] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 18:34:16:356] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 18:34:19:691] info: Store: SET_NETWORK_STATUS online
+[07/18/18, 18:34:38:453] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1922,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/18/18, 18:34:38:973] info: Store: RELOAD
+{
+  "everything": false
+}
+[07/18/18, 18:34:38:975] info: Window is unloading, window.desktop is no longer accessible

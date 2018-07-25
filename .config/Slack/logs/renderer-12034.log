@@ -1,0 +1,152 @@
+[07/19/18, 18:08:21:707] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[07/19/18, 18:08:21:708] info: ║      Slack 3.2.1, linux 4.17.5-1-ARCH on x64 at 07/19/18, 18:08:21:705      ║
+[07/19/18, 18:08:21:708] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[07/19/18, 18:08:21:784] info: Initializing local storage instance at path: /home/fleip/.config/Slack/local-settings.json
+[07/19/18, 18:08:22:002] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: cannot open shared object file: No such file or directory",
+    "stack": "Error: libCallsCore.so: cannot open shared object file: No such file or directory\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[07/19/18, 18:08:22:002] error: Desktop module calls failed to load
+[07/19/18, 18:08:22:021] info: cld3::loadModule: loading cld3 module
+[07/19/18, 18:08:22:038] info: cld3Loader::loadModule: running environment is NODE
+[07/19/18, 18:08:22:038] info: cld3Loader::loadModule: constructed module object for runtime
+[07/19/18, 18:08:22:150] info: cld3Loader::initializeRuntime: successfully initialized module
+[07/19/18, 18:08:22:150] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[07/19/18, 18:08:22:158] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, v2 spellchecker is not available
+[07/19/18, 18:08:22:168] info: Main window preload script finished
+{
+  "readyTime": 703.899354
+}
+[07/19/18, 18:08:22:228] info: Store: SET_NETWORK_STATUS online
+[07/19/18, 18:08:24:973] error: Jul-19 18:08:24.973 file:FBTAL3S4T (slurpFilesFromMessagesModern) has reactions in local model, but we are upserting an object that does NOT have reactions, which seems suspicious
+[07/19/18, 18:08:24:975] error: Jul-19 18:08:24.975 file:FBT633EHY (slurpFilesFromMessagesModern) has reactions in local model, but we are upserting an object that does NOT have reactions, which seems suspicious
+[07/19/18, 18:08:25:073] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/19/18, 18:08:25:330] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 18:08:25:620] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/19/18, 18:08:25:802] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 18:08:25:802] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[07/19/18, 18:08:25:924] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 18:08:25:924] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 18:08:25:925] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "webapp-loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 18:08:26:029] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": null,
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 18:08:26:032] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T1G453ZUP",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[07/19/18, 18:08:26:651] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V2"
+}
+[07/19/18, 18:08:26:659] info: loadAsmModule: loading hunspell-asm module
+[07/19/18, 18:08:26:820] info: loadAsmModule: asm module loaded successfully
+[07/19/18, 18:08:26:820] info: SpellChecker: Starting spellchecker with language detector
+[07/19/18, 18:08:26:820] info: SpellChecker::enableSpellCheckerLanguageDetector: enable spellchecker language detector
+[07/19/18, 18:08:26:820] info: SpellChecker::startWithDictionary: Starting language detector with preloaded dict from last used language en
+[07/19/18, 18:08:26:842] info: download: downloading dictionary for 'en-us'
+[07/19/18, 18:08:26:842] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.aff",
+  "cachePolicy": "default"
+}
+[07/19/18, 18:08:26:845] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.dic",
+  "cachePolicy": "default"
+}
+[07/19/18, 18:08:26:848] info: dictionaryDownloader: verifying hash
+[07/19/18, 18:08:26:870] info: SpellChecker::downloadDictionary: Dictionary is ready for 
+{
+  "language": "en"
+}
+[07/19/18, 18:08:26:906] info: assignSpellchecker: spellCheckerTable added new checker for 'en'
+[07/19/18, 18:08:26:908] info: SpellChecker::prepareDictionary: Dictionary buffer for 'en' is loaded into spellchecker
+[07/19/18, 18:08:26:908] info: switchDictionary: switching dictionary to check spell from 'null' to 'en'
+[07/19/18, 18:08:26:908] info: SpellChecker::switchDictionary: SpellChecker enabled for language
+{
+  "language": "en"
+}
+[07/19/18, 18:08:30:248] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    -3838,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/19/18, 18:25:51:815] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1922,
+    203
+  ],
+  "size": [
+    1916,
+    1057
+  ]
+}
+[07/19/18, 18:25:52:048] info: Store: RELOAD
+{
+  "everything": false
+}
+[07/19/18, 18:25:52:051] info: Window is unloading, window.desktop is no longer accessible
+[07/19/18, 18:25:52:725] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[07/19/18, 18:25:52:744] info: Store: BACKGROUND_CLIENTS_INITIALIZED true

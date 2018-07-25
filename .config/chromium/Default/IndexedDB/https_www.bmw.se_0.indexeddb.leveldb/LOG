@@ -1,0 +1,9 @@
+2018/07/18-15:52:18.384 25175 Reusing MANIFEST /home/fleip/.config/chromium/Default/IndexedDB/https_www.bmw.se_0.indexeddb.leveldb/MANIFEST-000001
+2018/07/18-15:52:19.306 9363 Current memtable full; waiting...
+2018/07/18-15:52:19.306 1364 Level-0 table #5: started
+2018/07/18-15:52:19.308 1364 Level-0 table #5: 434 bytes OK
+2018/07/18-15:52:19.312 1364 Delete type=0 #3
+2018/07/18-15:52:19.313 1364 Level-0 table #7: started
+2018/07/18-15:52:19.313 1364 Level-0 table #7: 0 bytes OK
+2018/07/18-15:52:19.320 1364 Delete type=0 #4
+2018/07/18-15:52:19.320 1364 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

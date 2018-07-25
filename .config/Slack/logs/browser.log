@@ -1,0 +1,5075 @@
+[07/17/18, 12:34:23:462] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[07/17/18, 12:34:23:462] info: ║      Slack 3.2.1, linux 4.17.5-1-ARCH on x64 at 07/17/18, 12:34:23:460      ║
+[07/17/18, 12:34:23:462] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[07/17/18, 12:34:23:794] info: Initializing local storage instance at path: /home/fleip/.config/Slack/local-settings.json
+[07/17/18, 12:34:23:937] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/fleip/.config/Slack/logs/recorded-trace
+[07/17/18, 12:34:23:944] info: Configuring uncaughtExceptionHandler
+[07/17/18, 12:34:23:944] info: Configuring unhandledRejectionHandler
+[07/17/18, 12:34:23:944] info: Registered with apiKey acaff8df67924f677747922423057034
+[07/17/18, 12:34:24:137] error: TransformPasswords: Cannot access keychain
+{
+  "error": {
+    "message": "The name org.freedesktop.secrets was not provided by any .service files",
+    "stack": "Error: The name org.freedesktop.secrets was not provided by any .service files"
+  }
+}
+[07/17/18, 12:34:24:137] warn: BrowserStore: Couldn't access keychain, make note of it
+[07/17/18, 12:34:24:141] info: Store: persist/REHYDRATE
+[07/17/18, 12:34:24:157] info: Store: UPDATE_SETTINGS
+{
+  "isSignedIntoSlackOrg": false
+}
+[07/17/18, 12:34:24:159] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[07/17/18, 12:34:24:161] info: Created uuid '71ad0bf9-b5aa-59af-9b05-fcd8574403d5'
+[07/17/18, 12:34:24:272] info: Tray Handler: Showing a tray balloon with title: Welcome to Slack!
+[07/17/18, 12:34:24:277] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 17,
+    "build": 5
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.2.1",
+  "versionName": "Cartoon Heroes",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "isGpuCompositionAvailable": true,
+  "linux": {
+    "os": "Arch Linux",
+    "release": ""
+  }
+}
+[07/17/18, 12:34:24:278] info: AutoLoginEpic: Checking for autologin.
+[07/17/18, 12:34:24:280] info: Store: UPDATE_SETTINGS
+{
+  "hasRunApp": true
+}
+[07/17/18, 12:34:24:281] info: WebContentsMediator: Attaching to new webContents
+[07/17/18, 12:34:24:283] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[07/17/18, 12:34:24:284] info: BrowserViewManager: Starting initialization
+[07/17/18, 12:34:24:285] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": null
+}
+[07/17/18, 12:34:24:286] info: PersistSettingsWindowBehavior: Resetting to default window position
+{
+  "settings": {
+    "position": [
+      2304,
+      309
+    ],
+    "size": [
+      1152,
+      864
+    ]
+  }
+}
+[07/17/18, 12:34:24:286] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "position": [
+    2304,
+    309
+  ],
+  "size": [
+    1152,
+    864
+  ]
+}
+[07/17/18, 12:34:24:297] info: Store: UPDATE_SETTINGS
+{
+  "PrefSSBFileDownloadPath": "/home/fleip/Downloads"
+}
+[07/17/18, 12:34:24:298] info: DownloadListener: Downloads directory set to
+{
+  "downloadsDirectory": "/home/fleip/Downloads"
+}
+[07/17/18, 12:34:24:298] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[07/17/18, 12:34:24:300] info: App: Welcome to Slack 3.2.1 x64
+[07/17/18, 12:34:24:300] info: App load time: 1,43205176
+[07/17/18, 12:34:24:990] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[07/17/18, 12:34:24:994] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[07/17/18, 12:34:25:618] info: Store: SET_NETWORK_STATUS online
+[07/17/18, 12:34:25:622] info: Store: MAIN_WINDOW_SHOWN
+[07/17/18, 12:34:25:636] info: createSignInWindowEpic: No teams signed in, showing sign-in window
+[07/17/18, 12:34:25:638] info: WebContentsMediator: Attaching to new webContents
+[07/17/18, 12:34:25:642] info: Store: ADD_WINDOW
+{
+  "id": 3,
+  "type": "sign-in"
+}
+[07/17/18, 12:34:25:643] info: SignInEpic: Loading URL in new window https://slack.com/signin
+[07/17/18, 12:34:33:431] info: SignInEpic: Page redirect
+{
+  "newURL": "https://42schoolsiliconvalley.slack.com/"
+}
+[07/17/18, 12:34:33:431] info: SignInEpic: Page redirect
+{
+  "newURL": "https://42schoolsiliconvalley.slack.com/"
+}
+[07/17/18, 12:34:44:599] info: SignInEpic: Page redirect
+{
+  "newURL": "https://slack.com/checkcookie?redir=https%3A%2F%2F42schoolsiliconvalley.slack.com%2Fsignin%3Fssb_success%3D1%26ssb_relogin%3D"
+}
+[07/17/18, 12:34:44:600] info: SignInEpic: Page redirect
+{
+  "newURL": "https://slack.com/checkcookie?redir=https%3A%2F%2F42schoolsiliconvalley.slack.com%2Fsignin%3Fssb_success%3D1%26ssb_relogin%3D"
+}
+[07/17/18, 12:34:44:778] info: SignInEpic: Page redirect
+{
+  "newURL": "https://42schoolsiliconvalley.slack.com/signin?ssb_success=1&ssb_relogin="
+}
+[07/17/18, 12:34:44:779] info: SignInEpic: Page redirect
+{
+  "newURL": "https://42schoolsiliconvalley.slack.com/signin?ssb_success=1&ssb_relogin="
+}
+[07/17/18, 12:34:45:224] info: SignInEpic: Received team(s) from the webapp
+[07/17/18, 12:34:45:225] info: SignInEpic: Got signal!
+[07/17/18, 12:34:45:225] info: SignInEpic: Sign-in window closed
+[07/17/18, 12:34:45:225] info: Store: REMOVE_WINDOW 3
+[07/17/18, 12:34:45:247] info: maybeQuitAppAction
+{
+  "canceledSignIn": false,
+  "hasNoTeams": true
+}
+[07/17/18, 12:34:45:247] info: SignInEpic: End of the road
+{
+  "action": "ADD_NEW_TEAM"
+}
+[07/17/18, 12:34:45:247] info: Store: ADD_NEW_TEAM
+{
+  "id": "U9QV5PR2P",
+  "name": "[REDACTED]",
+  "team_id": "T1G453ZUP",
+  "team_name": "[REDACTED]",
+  "team_url": "[REDACTED]"
+}
+[07/17/18, 12:34:45:250] info: BrowserViewManager: Creating views for 1 new teams
+[07/17/18, 12:34:45:250] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 12:34:45:251] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 12:34:45:252] info: WebContentsMediator: Attaching to new webContents
+[07/17/18, 12:34:45:252] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "teamId": "T1G453ZUP",
+  "state": "unloaded"
+}
+[07/17/18, 12:34:45:257] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T1G453ZUP | start |            |
++-----------+-------+------------+
+[07/17/18, 12:34:45:278] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 12:34:45:280] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T1G453ZUP | start |            |
++-----------+-------+------------+
+[07/17/18, 12:34:46:290] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    1922,
+    203
+  ],
+  "isMaximized": false
+}
+[07/17/18, 12:34:49:184] info: WebContents LifeCycle: webContents:4 from 'unloaded' to 'loaded' took 3923 ms
+[07/17/18, 12:34:49:185] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 12:34:49:186] info: Background Clients Update: 
++-----------+---------+------------+
+|           | Full    | Background |
+|-----------+---------+------------+
+| T1G453ZUP | loading |            |
++-----------+---------+------------+
+[07/17/18, 12:34:49:432] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 12:34:50:293] info: Store: SELECT_CHANNEL C1G4AJ96D
+[07/17/18, 12:34:50:294] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 12:34:50:296] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[07/17/18, 12:34:50:300] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T1G453ZUP",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[07/17/18, 12:34:50:459] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 12:34:50:529] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 12:34:50:534] info: WebContents LifeCycle: webContents:4 from 'loaded' to 'webapp-loaded' took 1350 ms
+[07/17/18, 12:34:50:534] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "webapp-loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 12:34:50:534] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T1G453ZUP | ready |            |
++-----------+-------+------------+
+[07/17/18, 12:34:50:867] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "teamId": "T1G453ZUP",
+  "enterpriseId": null
+}
+[07/17/18, 12:34:50:869] info: Store: STORE_API_TOKEN
+{
+  "token": "xoxs-⋯",
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 12:34:54:266] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/17/18, 12:34:56:860] info: Store: SELECT_CHANNEL GBHRY1DQ9
+[07/17/18, 12:34:57:279] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/17/18, 12:35:00:871] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    -1918,
+    203
+  ],
+  "isMaximized": false
+}
+[07/17/18, 12:40:41:661] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    1922,
+    203
+  ],
+  "isMaximized": false
+}
+[07/17/18, 12:42:16:753] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    -1918,
+    203
+  ],
+  "isMaximized": false
+}
+[07/17/18, 12:42:23:045] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    1922,
+    203
+  ],
+  "isMaximized": false
+}
+[07/17/18, 12:42:37:499] info: Store: SET_SUSPEND_STATUS
+[07/17/18, 14:59:10:628] info: Store: SET_SUSPEND_STATUS true
+[07/17/18, 14:59:15:938] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 14:59:16:018] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 15:01:27:421] info: Store: SET_SUSPEND_STATUS
+[07/17/18, 16:06:20:665] info: Store: SET_SUSPEND_STATUS true
+[07/17/18, 16:06:20:874] info: Store: SET_NETWORK_STATUS offline
+[07/17/18, 16:06:30:533] info: Store: SET_NETWORK_STATUS online
+[07/17/18, 16:06:58:668] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 16:06:58:737] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 16:55:08:047] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://a.slack-edge.com/436da/img/unknown_avatar.png",
+  "channel": "C2F0ZH9T7",
+  "content": "[REDACTED]",
+  "id": "v87WiWhAGANMy34",
+  "launchUri": "slack://channel?id=C2F0ZH9T7&message=1531839382.000461&team=T1G453ZUP",
+  "msg": "1531839382.000461",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/17/18, 16:55:08:049] info: Creating new Electron notification.
+[07/17/18, 17:12:03:185] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UANNX1CQL-g61c606d212c-512",
+  "channel": "GBH29TDHR",
+  "content": "[REDACTED]",
+  "id": "j0VESYi7l7Dx5GL",
+  "launchUri": "slack://channel?id=GBH29TDHR&message=1531840397.000566&team=T1G453ZUP",
+  "msg": "1531840397.000566",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/17/18, 17:12:03:186] info: Creating new Electron notification.
+[07/17/18, 17:12:40:381] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UANNX1CQL-g61c606d212c-512",
+  "channel": "GBH29TDHR",
+  "content": "[REDACTED]",
+  "id": "y9OZF6sRJR9yEDz",
+  "launchUri": "slack://channel?id=GBH29TDHR&message=1531840435.000069&team=T1G453ZUP",
+  "msg": "1531840435.000069",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/17/18, 17:12:40:382] info: Creating new Electron notification.
+[07/17/18, 17:13:19:202] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UANNX1CQL-g61c606d212c-512",
+  "channel": "GBH29TDHR",
+  "content": "[REDACTED]",
+  "id": "XrAgHMtk1k4MAvY",
+  "launchUri": "slack://channel?id=GBH29TDHR&message=1531840473.000590&team=T1G453ZUP",
+  "msg": "1531840473.000590",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/17/18, 17:13:19:204] info: Creating new Electron notification.
+[07/17/18, 17:21:22:191] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBAE7EUBY-7f47e8983fd9-512",
+  "channel": "GBH29TDHR",
+  "content": "[REDACTED]",
+  "id": "pk6NHAuGnG898Gr",
+  "launchUri": "slack://channel?id=GBH29TDHR&message=1531840956.000654&team=T1G453ZUP",
+  "msg": "1531840956.000654",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/17/18, 17:21:22:191] info: Creating new Electron notification.
+[07/17/18, 17:23:53:770] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UANNX1CQL-g61c606d212c-512",
+  "channel": "GBH29TDHR",
+  "content": "[REDACTED]",
+  "id": "AM7BilCYxYoqR6j",
+  "launchUri": "slack://channel?id=GBH29TDHR&message=1531841108.000287&team=T1G453ZUP",
+  "msg": "1531841108.000287",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/17/18, 17:23:53:771] info: Creating new Electron notification.
+[07/17/18, 17:24:47:909] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UANNX1CQL-g61c606d212c-512",
+  "channel": "GBH29TDHR",
+  "content": "[REDACTED]",
+  "id": "4zDltmFWnWYQxqW",
+  "launchUri": "slack://channel?id=GBH29TDHR&message=1531841162.000443&team=T1G453ZUP",
+  "msg": "1531841162.000443",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/17/18, 17:24:47:910] info: Creating new Electron notification.
+[07/17/18, 17:41:22:247] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    -1918,
+    203
+  ],
+  "isMaximized": false
+}
+[07/17/18, 18:27:55:520] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UANNX1CQL-g61c606d212c-512",
+  "channel": "GBH29TDHR",
+  "content": "[REDACTED]",
+  "id": "NYnVi9HRMR6PwA0",
+  "launchUri": "slack://channel?id=GBH29TDHR&message=1531844950.000102&team=T1G453ZUP",
+  "msg": "1531844950.000102",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/17/18, 18:27:55:521] info: Creating new Electron notification.
+[07/17/18, 18:28:08:994] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UANNX1CQL-g61c606d212c-512",
+  "channel": "GBH29TDHR",
+  "content": "[REDACTED]",
+  "id": "27Aju0I2w2J5JkQ",
+  "launchUri": "slack://channel?id=GBH29TDHR&message=1531844963.000435&team=T1G453ZUP",
+  "msg": "1531844963.000435",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/17/18, 18:28:08:995] info: Creating new Electron notification.
+[07/17/18, 18:28:30:448] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UANNX1CQL-g61c606d212c-512",
+  "channel": "GBH29TDHR",
+  "content": "[REDACTED]",
+  "id": "Q6qYigSkXkZl3Xq",
+  "launchUri": "slack://channel?id=GBH29TDHR&message=1531844985.000073&team=T1G453ZUP",
+  "msg": "1531844985.000073",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/17/18, 18:28:30:449] info: Creating new Electron notification.
+[07/17/18, 18:40:39:598] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UA6D15KMF-d139083def21-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "NYnVioTRMR65EWJ",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1531845714.000166&team=T1G453ZUP",
+  "msg": "1531845714.000166",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/17/18, 18:40:39:599] info: Creating new Electron notification.
+[07/17/18, 18:46:34:766] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    1922,
+    203
+  ],
+  "isMaximized": false
+}
+[07/17/18, 18:46:36:273] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    -1918,
+    203
+  ],
+  "isMaximized": false
+}
+[07/17/18, 18:47:01:103] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    1922,
+    203
+  ],
+  "isMaximized": false
+}
+[07/17/18, 18:47:09:706] info: Store: RELOAD
+{
+  "everything": false
+}
+[07/17/18, 18:47:10:439] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[07/17/18, 18:47:10:440] info: BrowserViewManager: Starting initialization
+[07/17/18, 18:47:10:440] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 18:47:10:446] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[07/17/18, 18:47:10:447] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 18:47:10:980] info: Store: SET_NETWORK_STATUS online
+[07/17/18, 18:47:13:851] info: WebContents LifeCycle: webContents:4 from 'webapp-loaded' to 'loaded' took 22343317 ms
+[07/17/18, 18:47:13:851] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 18:47:13:852] info: Background Clients Update: 
++-----------+---------+------------+
+|           | Full    | Background |
+|-----------+---------+------------+
+| T1G453ZUP | loading |            |
++-----------+---------+------------+
+[07/17/18, 18:47:14:107] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 18:47:14:501] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/17/18, 18:47:14:703] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 18:47:14:707] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T1G453ZUP",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[07/17/18, 18:47:15:098] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 18:47:15:170] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 18:47:15:175] info: WebContents LifeCycle: webContents:4 from 'loaded' to 'webapp-loaded' took 1324 ms
+[07/17/18, 18:47:15:175] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "webapp-loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 18:47:15:176] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T1G453ZUP | ready |            |
++-----------+-------+------------+
+[07/17/18, 18:47:15:351] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "teamId": "T1G453ZUP",
+  "enterpriseId": null
+}
+[07/17/18, 18:52:23:071] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://a.slack-edge.com/436da/img/unknown_avatar.png",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "wVZJHLhKMK7rjMp",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1531846417.000417&team=T1G453ZUP",
+  "msg": "1531846417.000417",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/17/18, 18:52:23:072] info: Creating new Electron notification.
+[07/17/18, 18:53:02:100] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-U4DLWGGHH-767f49ef3ca7-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "Gvg3tBiQ5Qq5YJv",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1531846456.000461&team=T1G453ZUP",
+  "msg": "1531846456.000461",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/17/18, 18:53:02:102] info: Creating new Electron notification.
+[07/17/18, 18:53:16:667] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/17/18, 18:53:44:234] info: Store: SELECT_CHANNEL C2F0ZH9T7
+[07/17/18, 18:53:47:590] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/17/18, 18:54:13:970] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-U4UD0F2S0-0b95229fd799-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "NLp3HVsRMR6K4Rm",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1531846528.000369&team=T1G453ZUP",
+  "msg": "1531846528.000369",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/17/18, 18:54:13:971] info: Creating new Electron notification.
+[07/17/18, 18:54:37:423] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-U4DLWGGHH-767f49ef3ca7-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "E8G3t6tPvP6lJyw",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1531846552.000049&team=T1G453ZUP",
+  "msg": "1531846552.000049",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/17/18, 18:54:37:424] info: Creating new Electron notification.
+[07/17/18, 18:59:16:645] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UA6D15KMF-d139083def21-512",
+  "channel": "GBH29TDHR",
+  "content": "[REDACTED]",
+  "id": "Mwo3TzuWlWL6jXV",
+  "launchUri": "slack://channel?id=GBH29TDHR&message=1531846831.000200&team=T1G453ZUP",
+  "msg": "1531846831.000200",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/17/18, 18:59:16:645] info: Creating new Electron notification.
+[07/17/18, 19:01:47:076] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/17/18, 19:02:21:185] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://a.slack-edge.com/436da/img/unknown_avatar.png",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "k8DqtXC9M9WRqq9",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1531847015.000462&team=T1G453ZUP",
+  "msg": "1531847015.000462",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/17/18, 19:02:21:185] info: Creating new Electron notification.
+[07/17/18, 19:02:37:904] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/17/18, 19:02:40:281] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/17/18, 19:06:29:448] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-U5MMU62HF-31fdfd66bed8-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "91O0TMFOyO6kALn",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1531847264.000057&team=T1G453ZUP",
+  "msg": "1531847264.000057",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/17/18, 19:06:29:449] info: Creating new Electron notification.
+[07/17/18, 19:07:17:004] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-U4UD0F2S0-0b95229fd799-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "Mwo3T9HWlWxwR0N",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1531847311.000365&team=T1G453ZUP",
+  "msg": "1531847311.000365",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/17/18, 19:07:17:005] info: Creating new Electron notification.
+[07/17/18, 19:08:43:433] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/17/18, 19:09:00:828] info: Store: SET_SUSPEND_STATUS
+[07/17/18, 19:55:09:462] info: Store: SET_SUSPEND_STATUS true
+[07/17/18, 19:55:09:878] info: Store: SET_NETWORK_STATUS offline
+[07/17/18, 19:55:15:833] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/17/18, 19:55:16:187] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 19:55:16:272] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 19:55:20:032] info: Store: SET_NETWORK_STATUS online
+[07/17/18, 19:56:13:427] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-U1HBUHY93-9296b42ea90c-512",
+  "channel": "C1G4577UM",
+  "content": "[REDACTED]",
+  "id": "yoMLHAIRJRmJ3vA",
+  "launchUri": "slack://channel?id=C1G4577UM&message=1531850248.000194&team=T1G453ZUP",
+  "msg": "1531850248.000194",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/17/18, 19:56:13:428] info: Creating new Electron notification.
+[07/17/18, 19:56:15:696] info: Store: SELECT_CHANNEL C1G4577UM
+[07/17/18, 19:56:17:476] info: WindowCloseBehavior: Attempted to close the window, hiding due to run from tray
+[07/17/18, 19:56:17:481] info: Store: UPDATE_SETTINGS
+{
+  "hasRunFromTray": true
+}
+[07/17/18, 19:56:17:483] info: Store: SHOW_TRAY_BALLOON
+{
+  "title": "Why didn’t Slack quit?",
+  "content": "Slack’s set to stay running in the notification area. To change this, visit Preferences > Linux App."
+}
+[07/17/18, 19:56:17:484] info: Tray Handler: Showing a tray balloon with title: Why didn’t Slack quit?
+[07/17/18, 19:56:18:493] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    1920,
+    201
+  ],
+  "isMaximized": false
+}
+[07/17/18, 19:56:19:765] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-U4DLWGGHH-767f49ef3ca7-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "ROw3ToSOxOJxwZ0",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1531850254.000391&team=T1G453ZUP",
+  "msg": "1531850254.000391",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/17/18, 19:56:19:765] info: Creating new Electron notification.
+[07/17/18, 19:56:20:605] info: App: Otherwise signaled, foregrounding.
+[07/17/18, 19:56:20:605] info: Store: FOREGROUND_APP
+[07/17/18, 19:56:21:610] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1920,
+    201
+  ],
+  "isMaximized": false
+}
+[07/17/18, 19:56:25:942] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-U4DLWGGHH-767f49ef3ca7-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "VAl3IMTJwJKwqVZ",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1531850260.000485&team=T1G453ZUP",
+  "msg": "1531850260.000485",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/17/18, 19:56:25:943] info: Creating new Electron notification.
+[07/17/18, 19:56:41:082] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-U604MP50W-91b16239f5ca-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "VAl3I1UJwJKBG7P",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1531850275.000593&team=T1G453ZUP",
+  "msg": "1531850275.000593",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/17/18, 19:56:41:083] info: Creating new Electron notification.
+[07/17/18, 19:57:40:855] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    2880,
+    201
+  ],
+  "isMaximized": false
+}
+[07/17/18, 19:58:06:198] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1920,
+    201
+  ],
+  "isMaximized": false
+}
+[07/17/18, 19:58:13:771] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/17/18, 19:58:15:302] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/17/18, 19:59:14:345] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    2880,
+    201
+  ],
+  "isMaximized": false
+}
+[07/17/18, 19:59:15:503] info: Store: SET_SUSPEND_STATUS
+[07/17/18, 22:18:19:680] info: Store: SET_SUSPEND_STATUS true
+[07/17/18, 22:18:19:866] info: Store: SET_NETWORK_STATUS offline
+[07/17/18, 22:18:28:839] info: Store: RELOAD
+{
+  "everything": false
+}
+[07/17/18, 22:18:29:606] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[07/17/18, 22:18:29:607] info: BrowserViewManager: Starting initialization
+[07/17/18, 22:18:29:607] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 22:18:29:700] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[07/17/18, 22:18:29:701] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 22:18:30:172] info: Store: SET_NETWORK_STATUS online
+[07/17/18, 22:18:33:177] info: WebContents LifeCycle: webContents:4 from 'webapp-loaded' to 'loaded' took 12678001 ms
+[07/17/18, 22:18:33:177] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 22:18:33:178] info: Background Clients Update: 
++-----------+---------+------------+
+|           | Full    | Background |
+|-----------+---------+------------+
+| T1G453ZUP | loading |            |
++-----------+---------+------------+
+[07/17/18, 22:18:33:428] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 22:18:33:826] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/17/18, 22:18:34:026] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 22:18:34:031] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T1G453ZUP",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[07/17/18, 22:18:34:428] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 22:18:34:504] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 22:18:34:509] info: WebContents LifeCycle: webContents:4 from 'loaded' to 'webapp-loaded' took 1333 ms
+[07/17/18, 22:18:34:509] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "webapp-loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/17/18, 22:18:34:510] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T1G453ZUP | ready |            |
++-----------+-------+------------+
+[07/17/18, 22:18:34:698] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "teamId": "T1G453ZUP",
+  "enterpriseId": null
+}
+[07/17/18, 22:19:46:659] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    -1918,
+    203
+  ],
+  "isMaximized": false
+}
+[07/17/18, 22:34:35:333] info: Store: SET_SUSPEND_STATUS
+[07/18/18, 06:43:51:704] info: Store: SET_SUSPEND_STATUS true
+[07/18/18, 06:43:51:909] info: Store: SET_NETWORK_STATUS offline
+[07/18/18, 06:43:59:222] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 06:43:59:360] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 06:44:02:318] info: Store: SET_NETWORK_STATUS online
+[07/18/18, 07:16:07:212] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    2882,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 07:16:08:401] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1920,
+    201
+  ],
+  "isMaximized": false
+}
+[07/18/18, 07:16:08:644] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/18/18, 07:16:08:984] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 07:16:13:948] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 07:16:15:917] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 07:17:55:697] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 08:01:58:163] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 08:02:26:651] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1922,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 08:02:28:423] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 08:02:31:590] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1922,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 08:02:35:227] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1922,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 08:02:37:389] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 08:02:43:808] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 08:04:03:577] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 08:07:56:567] info: Store: SET_SUSPEND_STATUS
+[07/18/18, 09:20:11:711] info: Store: SET_SUSPEND_STATUS true
+[07/18/18, 09:20:11:873] info: Store: SET_NETWORK_STATUS offline
+[07/18/18, 09:20:16:381] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 09:20:16:452] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 09:20:20:424] info: Store: SET_NETWORK_STATUS online
+[07/18/18, 09:53:47:693] info: Store: SET_SUSPEND_STATUS
+[07/18/18, 11:39:25:658] info: Store: SET_SUSPEND_STATUS true
+[07/18/18, 11:39:25:888] info: Store: SET_NETWORK_STATUS offline
+[07/18/18, 11:39:35:977] info: Store: SET_NETWORK_STATUS online
+[07/18/18, 11:39:58:804] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 11:39:58:866] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 11:46:39:264] info: App: Otherwise signaled, foregrounding.
+[07/18/18, 11:46:39:264] info: Store: FOREGROUND_APP
+[07/18/18, 11:46:40:267] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1920,
+    201
+  ],
+  "isMaximized": false
+}
+[07/18/18, 11:46:48:995] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1922,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 11:46:52:464] info: Store: RELOAD
+{
+  "everything": false
+}
+[07/18/18, 11:46:53:159] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[07/18/18, 11:46:53:160] info: BrowserViewManager: Starting initialization
+[07/18/18, 11:46:53:160] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 11:46:53:167] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[07/18/18, 11:46:53:167] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 11:46:53:702] info: Store: SET_NETWORK_STATUS online
+[07/18/18, 11:46:56:307] info: WebContents LifeCycle: webContents:4 from 'webapp-loaded' to 'loaded' took 48501797 ms
+[07/18/18, 11:46:56:307] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 11:46:56:308] info: Background Clients Update: 
++-----------+---------+------------+
+|           | Full    | Background |
+|-----------+---------+------------+
+| T1G453ZUP | loading |            |
++-----------+---------+------------+
+[07/18/18, 11:46:56:560] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 11:46:56:897] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 11:46:57:081] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 11:46:57:086] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T1G453ZUP",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[07/18/18, 11:46:57:467] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 11:46:57:543] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 11:46:57:547] info: WebContents LifeCycle: webContents:4 from 'loaded' to 'webapp-loaded' took 1241 ms
+[07/18/18, 11:46:57:548] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "webapp-loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 11:46:57:548] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T1G453ZUP | ready |            |
++-----------+-------+------------+
+[07/18/18, 11:46:57:691] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "teamId": "T1G453ZUP",
+  "enterpriseId": null
+}
+[07/18/18, 11:46:59:832] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/18/18, 11:47:47:257] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1922,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 11:47:49:394] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1922,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 11:47:52:471] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    2880,
+    201
+  ],
+  "isMaximized": false
+}
+[07/18/18, 11:48:03:495] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1920,
+    201
+  ],
+  "isMaximized": false
+}
+[07/18/18, 11:48:13:850] info: Store: SELECT_CHANNEL CA7GHA0TW
+[07/18/18, 11:50:22:638] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 11:51:52:823] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1922,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 11:51:54:810] info: Store: SELECT_CHANNEL C1G4577UM
+[07/18/18, 11:51:54:921] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1922,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 11:51:59:545] info: Store: SELECT_CHANNEL CA7GHA0TW
+[07/18/18, 11:52:02:725] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    2880,
+    201
+  ],
+  "isMaximized": false
+}
+[07/18/18, 11:52:34:541] info: Store: SELECT_CHANNEL GBHRY1DQ9
+[07/18/18, 11:52:36:916] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 11:52:38:084] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/18/18, 11:53:10:339] info: WindowCloseBehavior: Attempted to close the window, hiding due to run from tray
+[07/18/18, 11:56:47:859] info: Store: SET_SUSPEND_STATUS
+[07/18/18, 12:28:26:676] info: Store: SET_SUSPEND_STATUS true
+[07/18/18, 12:28:26:879] info: Store: SET_NETWORK_STATUS offline
+[07/18/18, 12:28:37:870] info: Store: SET_NETWORK_STATUS online
+[07/18/18, 12:29:05:492] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 12:29:05:588] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 12:29:12:511] info: App: Otherwise signaled, foregrounding.
+[07/18/18, 12:29:12:512] info: Store: FOREGROUND_APP
+[07/18/18, 12:29:13:516] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1920,
+    201
+  ],
+  "isMaximized": false
+}
+[07/18/18, 12:29:27:074] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 12:29:31:064] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 12:52:17:153] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 12:52:39:704] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 15:00:56:798] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBAA00CLA-79e62418945c-512",
+  "channel": "CA7GHA0TW",
+  "content": "[REDACTED]",
+  "id": "vxnRCWhAGoo53ER",
+  "launchUri": "slack://channel?id=CA7GHA0TW&message=1531918933.000234&team=T1G453ZUP",
+  "msg": "1531918933.000234",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/18/18, 15:00:56:799] info: Creating new Electron notification.
+[07/18/18, 16:50:57:129] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1922,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 16:51:22:470] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 17:38:01:688] info: Store: SET_SUSPEND_STATUS
+[07/18/18, 18:34:09:694] info: Store: SET_SUSPEND_STATUS true
+[07/18/18, 18:34:09:923] info: Store: SET_NETWORK_STATUS offline
+[07/18/18, 18:34:16:253] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 18:34:16:321] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 18:34:19:690] info: Store: SET_NETWORK_STATUS online
+[07/18/18, 18:34:38:451] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1922,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 18:34:38:973] info: Store: RELOAD
+{
+  "everything": false
+}
+[07/18/18, 18:34:39:640] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[07/18/18, 18:34:39:641] info: BrowserViewManager: Starting initialization
+[07/18/18, 18:34:39:641] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 18:34:39:644] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[07/18/18, 18:34:39:645] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 18:34:40:179] info: Store: SET_NETWORK_STATUS online
+[07/18/18, 18:34:43:550] info: WebContents LifeCycle: webContents:4 from 'webapp-loaded' to 'loaded' took 24466003 ms
+[07/18/18, 18:34:43:551] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 18:34:43:552] info: Background Clients Update: 
++-----------+---------+------------+
+|           | Full    | Background |
+|-----------+---------+------------+
+| T1G453ZUP | loading |            |
++-----------+---------+------------+
+[07/18/18, 18:34:44:226] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 18:34:44:406] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 18:34:44:409] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T1G453ZUP",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[07/18/18, 18:34:44:761] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 18:34:44:825] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 18:34:44:830] info: WebContents LifeCycle: webContents:4 from 'loaded' to 'webapp-loaded' took 1280 ms
+[07/18/18, 18:34:44:830] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "webapp-loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 18:34:44:831] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T1G453ZUP | ready |            |
++-----------+-------+------------+
+[07/18/18, 18:34:44:999] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "teamId": "T1G453ZUP",
+  "enterpriseId": null
+}
+[07/18/18, 18:34:49:111] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/18/18, 18:34:51:600] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 18:34:52:275] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 18:39:36:029] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 19:11:08:539] info: Store: SET_SUSPEND_STATUS
+[07/18/18, 20:44:44:701] info: Store: SET_SUSPEND_STATUS true
+[07/18/18, 20:44:44:941] info: Store: SET_NETWORK_STATUS offline
+[07/18/18, 20:44:52:271] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 20:44:52:388] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/18/18, 20:44:54:315] info: Store: SET_NETWORK_STATUS online
+[07/18/18, 20:54:56:220] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1922,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 20:55:56:912] info: Store: SELECT_CHANNEL C1G4577UM
+[07/18/18, 20:56:58:474] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 21:04:04:892] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/18/18, 21:04:21:305] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 21:06:20:858] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 21:06:21:910] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1922,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 21:07:41:537] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/18/18, 21:07:43:130] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 21:07:44:331] info: Store: SELECT_CHANNEL GBHRY1DQ9
+[07/18/18, 21:07:46:687] info: Store: SELECT_CHANNEL CA7GHA0TW
+[07/18/18, 21:07:49:010] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/18/18, 21:08:04:152] info: Store: SELECT_CHANNEL CA7GHA0TW
+[07/18/18, 21:08:21:332] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 21:13:54:205] info: Store: SELECT_CHANNEL DBEJUGTC3
+[07/18/18, 21:13:56:373] info: Store: SELECT_CHANNEL DBE6TST09
+[07/18/18, 21:13:57:776] info: Store: SELECT_CHANNEL GBHRY1DQ9
+[07/18/18, 21:13:58:760] info: Store: SELECT_CHANNEL CA7GHA0TW
+[07/18/18, 21:14:03:384] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 21:14:41:426] info: Store: SELECT_CHANNEL GBHRY1DQ9
+[07/18/18, 21:14:41:995] info: Store: SELECT_CHANNEL CA7GHA0TW
+[07/18/18, 21:14:59:538] info: Store: SELECT_CHANNEL DB8HPAZ17
+[07/18/18, 21:15:02:141] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 21:15:19:235] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 21:16:56:988] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1922,
+    203
+  ],
+  "isMaximized": false
+}
+[07/18/18, 21:20:02:266] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    2880,
+    201
+  ],
+  "isMaximized": false
+}
+[07/18/18, 21:22:56:098] info: Store: SELECT_CHANNEL CA7GHA0TW
+[07/18/18, 21:22:57:537] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 21:26:33:674] info: Store: SELECT_CHANNEL CA7GHA0TW
+[07/18/18, 21:26:37:810] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 21:29:37:127] info: Store: OPEN_CONTEXT_MENU
+{
+  "id": 4,
+  "params": "[REDACTED]"
+}
+[07/18/18, 21:43:42:371] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/18/18, 21:43:55:703] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 21:46:52:015] info: Store: SELECT_CHANNEL DBE6TST09
+[07/18/18, 21:47:00:431] info: Store: SELECT_CHANNEL DBHJU54JX
+[07/18/18, 21:47:02:875] info: Store: SELECT_CHANNEL DBE6TST09
+[07/18/18, 21:47:05:998] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 21:47:42:925] info: Store: SELECT_CHANNEL DBE6TST09
+[07/18/18, 21:47:53:820] info: Store: SELECT_CHANNEL DBHJU54JX
+[07/18/18, 21:47:55:700] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 21:49:28:986] info: Store: SELECT_CHANNEL DBE6TST09
+[07/18/18, 21:49:30:782] info: Store: SELECT_CHANNEL DBHJU54JX
+[07/18/18, 21:49:33:209] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 21:53:15:458] info: Store: SELECT_CHANNEL DBE6TST09
+[07/18/18, 21:53:20:443] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 21:53:55:176] info: Store: SELECT_CHANNEL DBE6TST09
+[07/18/18, 21:54:24:386] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 21:55:42:216] info: Store: SELECT_CHANNEL DBE6TST09
+[07/18/18, 21:56:40:500] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 21:58:06:036] info: Store: SELECT_CHANNEL DBE6TST09
+[07/18/18, 21:58:08:354] info: Store: SELECT_CHANNEL DB8HPAZ17
+[07/18/18, 21:58:08:818] info: Store: SELECT_CHANNEL DBHJU54JX
+[07/18/18, 21:58:10:248] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 21:59:20:284] info: Store: SELECT_CHANNEL DBE6TST09
+[07/18/18, 21:59:23:723] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 22:00:07:258] info: Store: SELECT_CHANNEL DBE6TST09
+[07/18/18, 22:00:18:357] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 22:01:53:439] info: Store: SELECT_CHANNEL DBE6TST09
+[07/18/18, 22:03:01:892] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 22:03:08:994] info: Store: SELECT_CHANNEL CA7GHA0TW
+[07/18/18, 22:03:20:396] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/18/18, 22:03:21:745] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 22:04:13:623] info: Store: SELECT_CHANNEL DBE6TST09
+[07/18/18, 22:04:17:300] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 22:05:38:878] info: Store: SELECT_CHANNEL GBHRY1DQ9
+[07/18/18, 22:05:39:912] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/18/18, 22:06:42:122] info: Store: SET_SUSPEND_STATUS
+[07/19/18, 09:13:34:648] info: Store: SET_SUSPEND_STATUS true
+[07/19/18, 09:13:34:932] info: Store: SET_NETWORK_STATUS offline
+[07/19/18, 09:13:41:716] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 09:13:41:787] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 09:13:45:027] info: Store: SET_NETWORK_STATUS online
+[07/19/18, 09:39:15:884] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    2880,
+    201
+  ],
+  "isMaximized": false
+}
+[07/19/18, 09:41:22:734] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1920,
+    201
+  ],
+  "isMaximized": false
+}
+[07/19/18, 09:41:32:107] info: Store: SET_SUSPEND_STATUS
+[07/19/18, 11:35:03:711] info: Store: SET_SUSPEND_STATUS true
+[07/19/18, 11:35:03:906] info: Store: SET_NETWORK_STATUS offline
+[07/19/18, 11:35:14:244] info: Store: SET_NETWORK_STATUS online
+[07/19/18, 11:35:21:093] info: Store: RELOAD
+{
+  "everything": false
+}
+[07/19/18, 11:35:21:770] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[07/19/18, 11:35:21:770] info: BrowserViewManager: Starting initialization
+[07/19/18, 11:35:21:770] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 11:35:21:775] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[07/19/18, 11:35:21:776] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 11:35:22:309] info: Store: SET_NETWORK_STATUS online
+[07/19/18, 11:35:24:956] info: WebContents LifeCycle: webContents:4 from 'webapp-loaded' to 'loaded' took 61240126 ms
+[07/19/18, 11:35:24:956] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 11:35:24:957] info: Background Clients Update: 
++-----------+---------+------------+
+|           | Full    | Background |
+|-----------+---------+------------+
+| T1G453ZUP | loading |            |
++-----------+---------+------------+
+[07/19/18, 11:35:25:211] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 11:35:25:528] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/19/18, 11:35:25:720] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 11:35:25:736] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T1G453ZUP",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[07/19/18, 11:35:26:237] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 11:35:26:311] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 11:35:26:316] info: WebContents LifeCycle: webContents:4 from 'loaded' to 'webapp-loaded' took 1360 ms
+[07/19/18, 11:35:26:316] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "webapp-loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 11:35:26:317] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T1G453ZUP | ready |            |
++-----------+-------+------------+
+[07/19/18, 11:35:26:508] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "teamId": "T1G453ZUP",
+  "enterpriseId": null
+}
+[07/19/18, 12:11:31:599] info: Store: SELECT_CHANNEL DB8HPAZ17
+[07/19/18, 12:11:48:020] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/19/18, 12:12:06:056] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    203
+  ],
+  "isMaximized": false
+}
+[07/19/18, 12:12:20:123] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1922,
+    203
+  ],
+  "isMaximized": false
+}
+[07/19/18, 12:12:23:041] info: Store: SELECT_CHANNEL DB8HPAZ17
+[07/19/18, 12:13:10:195] info: Store: SELECT_CHANNEL DBD4CFCMQ
+[07/19/18, 12:13:10:708] info: Store: SELECT_CHANNEL DBE6TST09
+[07/19/18, 12:13:12:295] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/19/18, 12:14:39:957] info: Store: SELECT_CHANNEL DB8HPAZ17
+[07/19/18, 12:15:05:040] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/19/18, 12:15:07:090] info: Store: SELECT_CHANNEL DB8HPAZ17
+[07/19/18, 12:16:15:073] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/19/18, 12:41:04:021] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    2880,
+    201
+  ],
+  "isMaximized": false
+}
+[07/19/18, 12:41:06:234] info: Store: SET_SUSPEND_STATUS
+[07/19/18, 15:27:55:657] info: Store: SET_SUSPEND_STATUS true
+[07/19/18, 15:27:55:911] info: Store: SET_NETWORK_STATUS offline
+[07/19/18, 15:28:02:821] info: Store: RELOAD
+{
+  "everything": false
+}
+[07/19/18, 15:28:03:599] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[07/19/18, 15:28:03:600] info: BrowserViewManager: Starting initialization
+[07/19/18, 15:28:03:600] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 15:28:03:690] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[07/19/18, 15:28:03:690] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 15:28:04:140] info: Store: SET_NETWORK_STATUS online
+[07/19/18, 15:30:31:836] info: WindowCloseBehavior: Attempted to close the window, hiding due to run from tray
+[07/19/18, 15:30:38:587] info: App: Otherwise signaled, foregrounding.
+[07/19/18, 15:30:38:587] info: Store: FOREGROUND_APP
+[07/19/18, 15:30:39:597] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    1920,
+    201
+  ],
+  "isMaximized": false
+}
+[07/19/18, 15:45:46:748] info: WindowCloseBehavior: Attempted to close the window, hiding due to run from tray
+[07/19/18, 15:45:50:834] info: App: Otherwise signaled, foregrounding.
+[07/19/18, 15:45:50:834] info: Store: FOREGROUND_APP
+[07/19/18, 15:45:51:850] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    1920,
+    201
+  ],
+  "isMaximized": false
+}
+[07/19/18, 15:46:03:387] info: WindowCloseBehavior: Attempted to close the window, hiding due to run from tray
+[07/19/18, 16:19:25:272] info: Store: SET_SUSPEND_STATUS
+[07/19/18, 17:01:58:671] info: Store: SET_SUSPEND_STATUS true
+[07/19/18, 17:01:59:093] info: Store: SET_NETWORK_STATUS offline
+[07/19/18, 17:02:10:093] info: Store: SET_NETWORK_STATUS online
+[07/19/18, 17:34:33:707] info: Store: SET_SUSPEND_STATUS
+[07/19/18, 18:08:04:171] info: Store: SET_SUSPEND_STATUS true
+[07/19/18, 18:08:05:230] info: Store: SET_NETWORK_STATUS offline
+[07/19/18, 18:08:16:230] info: Store: SET_NETWORK_STATUS online
+[07/19/18, 18:08:18:562] info: App: Otherwise signaled, foregrounding.
+[07/19/18, 18:08:18:562] info: Store: FOREGROUND_APP
+[07/19/18, 18:08:19:567] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1920,
+    201
+  ],
+  "isMaximized": false
+}
+[07/19/18, 18:08:20:740] info: Store: RELOAD
+{
+  "everything": false
+}
+[07/19/18, 18:08:21:668] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[07/19/18, 18:08:21:669] info: BrowserViewManager: Starting initialization
+[07/19/18, 18:08:21:669] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 18:08:21:671] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[07/19/18, 18:08:21:671] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 18:08:22:213] info: Store: SET_NETWORK_STATUS online
+[07/19/18, 18:08:24:646] info: WebContents LifeCycle: webContents:4 from 'webapp-loaded' to 'loaded' took 23578330 ms
+[07/19/18, 18:08:24:646] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 18:08:24:647] info: Background Clients Update: 
++-----------+---------+------------+
+|           | Full    | Background |
+|-----------+---------+------------+
+| T1G453ZUP | loading |            |
++-----------+---------+------------+
+[07/19/18, 18:08:25:075] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/19/18, 18:08:25:215] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 18:08:25:275] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[07/19/18, 18:08:25:671] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 18:08:25:748] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 18:08:25:753] info: WebContents LifeCycle: webContents:4 from 'loaded' to 'webapp-loaded' took 1106 ms
+[07/19/18, 18:08:25:753] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "webapp-loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 18:08:25:753] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T1G453ZUP | ready |            |
++-----------+-------+------------+
+[07/19/18, 18:08:25:927] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "teamId": "T1G453ZUP",
+  "enterpriseId": null
+}
+[07/19/18, 18:08:25:934] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T1G453ZUP",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[07/19/18, 18:08:30:246] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    203
+  ],
+  "isMaximized": false
+}
+[07/19/18, 18:25:51:813] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1922,
+    203
+  ],
+  "isMaximized": false
+}
+[07/19/18, 18:25:52:047] info: Store: RELOAD
+{
+  "everything": false
+}
+[07/19/18, 18:25:52:725] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[07/19/18, 18:25:52:725] info: BrowserViewManager: Starting initialization
+[07/19/18, 18:25:52:725] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 18:25:52:730] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[07/19/18, 18:25:52:730] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 18:25:53:267] info: Store: SET_NETWORK_STATUS online
+[07/19/18, 18:25:56:093] info: WebContents LifeCycle: webContents:4 from 'webapp-loaded' to 'loaded' took 1050341 ms
+[07/19/18, 18:25:56:093] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 18:25:56:094] info: Background Clients Update: 
++-----------+---------+------------+
+|           | Full    | Background |
+|-----------+---------+------------+
+| T1G453ZUP | loading |            |
++-----------+---------+------------+
+[07/19/18, 18:25:56:343] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 18:25:56:697] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/19/18, 18:25:56:879] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 18:25:56:884] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T1G453ZUP",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[07/19/18, 18:25:57:236] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 18:25:57:303] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 18:25:57:308] info: WebContents LifeCycle: webContents:4 from 'loaded' to 'webapp-loaded' took 1215 ms
+[07/19/18, 18:25:57:308] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "webapp-loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 18:25:57:309] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T1G453ZUP | ready |            |
++-----------+-------+------------+
+[07/19/18, 18:25:57:494] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "teamId": "T1G453ZUP",
+  "enterpriseId": null
+}
+[07/19/18, 18:26:03:942] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    203
+  ],
+  "isMaximized": false
+}
+[07/19/18, 18:28:53:982] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1922,
+    203
+  ],
+  "isMaximized": false
+}
+[07/19/18, 18:29:17:625] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    203
+  ],
+  "isMaximized": false
+}
+[07/19/18, 18:29:19:150] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    1920,
+    201
+  ],
+  "isMaximized": false
+}
+[07/19/18, 18:29:27:322] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    -1918,
+    203
+  ],
+  "isMaximized": false
+}
+[07/19/18, 18:29:28:722] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    1922,
+    203
+  ],
+  "isMaximized": false
+}
+[07/19/18, 18:36:22:158] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    -1918,
+    203
+  ],
+  "isMaximized": false
+}
+[07/19/18, 18:36:25:867] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    1922,
+    203
+  ],
+  "isMaximized": false
+}
+[07/19/18, 18:39:13:638] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    -1918,
+    203
+  ],
+  "isMaximized": false
+}
+[07/19/18, 18:46:06:020] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1340,
+    1057
+  ],
+  "position": [
+    -2686,
+    203
+  ],
+  "isMaximized": false
+}
+[07/19/18, 18:49:13:156] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1340,
+    1057
+  ],
+  "position": [
+    -2686,
+    203
+  ],
+  "isMaximized": false
+}
+[07/19/18, 18:49:15:317] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    1922,
+    203
+  ],
+  "isMaximized": false
+}
+[07/19/18, 18:49:17:606] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    -1918,
+    203
+  ],
+  "isMaximized": false
+}
+[07/19/18, 18:55:54:146] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    -1918,
+    203
+  ],
+  "isMaximized": false
+}
+[07/19/18, 18:56:16:911] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    -1918,
+    203
+  ],
+  "isMaximized": false
+}
+[07/19/18, 18:56:31:839] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    -1918,
+    203
+  ],
+  "isMaximized": false
+}
+[07/19/18, 18:56:40:149] info: Store: SET_SUSPEND_STATUS
+[07/19/18, 18:56:51:757] info: Store: SET_SUSPEND_STATUS true
+[07/19/18, 18:56:52:156] info: Store: SET_NETWORK_STATUS offline
+[07/19/18, 18:57:02:088] info: Store: SET_NETWORK_STATUS online
+[07/19/18, 19:17:14:456] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[07/19/18, 19:17:14:457] info: ║      Slack 3.2.1, linux 4.17.6-1-ARCH on x64 at 07/19/18, 19:17:14:454      ║
+[07/19/18, 19:17:14:457] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[07/19/18, 19:17:14:873] info: Initializing local storage instance at path: /home/fleip/.config/Slack/local-settings.json
+[07/19/18, 19:17:15:064] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/fleip/.config/Slack/logs/recorded-trace
+[07/19/18, 19:17:15:074] info: Configuring uncaughtExceptionHandler
+[07/19/18, 19:17:15:074] info: Configuring unhandledRejectionHandler
+[07/19/18, 19:17:15:074] info: Registered with apiKey acaff8df67924f677747922423057034
+[07/19/18, 19:17:15:314] info: BrowserStore: Keychain access previously denied, don't ask again
+[07/19/18, 19:17:15:324] info: Store: persist/REHYDRATE
+{
+  "appTeams": {
+    "selectedTeamId": "T1G453ZUP",
+    "teamsByIndex": [
+      "T1G453ZUP"
+    ],
+    "teamsToSignOut": []
+  },
+  "dialog": "[REDACTED]",
+  "downloads": "[REDACTED]",
+  "enterprise": {
+    "T1G453ZUP": null
+  },
+  "settings": {
+    "appVersion": "3.2.1",
+    "versionName": "Cartoon Heroes",
+    "platform": "linux",
+    "platformVersion": {
+      "major": 4,
+      "minor": 17,
+      "build": 5
+    },
+    "isWin10": false,
+    "isBeforeWin10": false,
+    "resourcePath": "/usr/lib/slack/resources/app.asar",
+    "webappSrcPath": null,
+    "webappParams": null,
+    "isDevMode": false,
+    "devEnv": null,
+    "logFile": null,
+    "rxLogging": false,
+    "openDevToolsOnStart": false,
+    "pretendNotReallyWindows10": false,
+    "releaseChannel": "prod",
+    "autoHideMenuBar": false,
+    "defaultSigninTeam": null,
+    "isTitleBarHidden": false,
+    "hasRunApp": true,
+    "hasRunFromTray": true,
+    "reportIssueOnStartup": false,
+    "isSignedIntoSlackOrg": false,
+    "isGpuCompositionAvailable": true,
+    "runFromTray": true,
+    "launchOnStartup": false,
+    "spellcheckerLanguage": null,
+    "zoomLevel": 0,
+    "workspaceIdleTimeout": 43200000,
+    "whitelistedUrlSchemes": [
+      "http:",
+      "https:",
+      "mailto:",
+      "skype:",
+      "spotify:",
+      "live:",
+      "callto:",
+      "tel:",
+      "im:",
+      "sip:",
+      "sips:",
+      "slack:"
+    ],
+    "isTitleBarForcedByUser": false,
+    "isOpenExternalShellForced": false,
+    "PrefSSBFileDownloadPath": "/home/fleip/Downloads",
+    "notificationMethod": null,
+    "notificationPlayback": null,
+    "notifyPosition": {
+      "corner": "bottom_right",
+      "display": "same_as_app"
+    },
+    "locale": "en-US",
+    "useHwAcceleration": true,
+    "os": false,
+    "release": false,
+    "desktopEnvironment": false,
+    "isAeroGlassEnabled": false,
+    "linux": {
+      "os": "Arch Linux",
+      "release": ""
+    }
+  },
+  "teams": "[REDACTED]",
+  "windowFrame": {
+    "windowSettings": {
+      "size": [
+        956,
+        1057
+      ],
+      "position": [
+        -1918,
+        203
+      ],
+      "isMaximized": false
+    },
+    "isFullScreen": false
+  }
+}
+[07/19/18, 19:17:15:370] info: initializeMainWindowEpic: Waiting for selected team to load
+{
+  "selectedTeamId": "T1G453ZUP"
+}
+[07/19/18, 19:17:15:370] info: Store: UPDATE_SETTINGS
+{
+  "isSignedIntoSlackOrg": false
+}
+[07/19/18, 19:17:15:371] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[07/19/18, 19:17:15:523] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 17,
+    "build": 6
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.2.1",
+  "versionName": "Cartoon Heroes",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "isGpuCompositionAvailable": true,
+  "linux": {
+    "os": "Arch Linux",
+    "release": ""
+  }
+}
+[07/19/18, 19:17:15:525] info: AutoLoginEpic: Checking for autologin.
+[07/19/18, 19:17:15:528] info: WebContentsMediator: Attaching to new webContents
+[07/19/18, 19:17:15:530] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[07/19/18, 19:17:15:531] info: BrowserViewManager: Starting initialization
+[07/19/18, 19:17:15:531] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 19:17:15:532] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 19:17:15:533] info: WebContentsMediator: Attaching to new webContents
+[07/19/18, 19:17:15:533] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "T1G453ZUP",
+  "state": "unloaded"
+}
+[07/19/18, 19:17:15:536] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T1G453ZUP | start |            |
++-----------+-------+------------+
+[07/19/18, 19:17:15:541] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": {
+    "size": [
+      956,
+      1057
+    ],
+    "position": [
+      -1918,
+      203
+    ],
+    "isMaximized": false
+  }
+}
+[07/19/18, 19:17:15:542] info: rectIsMostlyContainedIn: Window too far left for display (-1726.8 < 1920)
+[07/19/18, 19:17:15:542] info: rectIsMostlyContainedIn: Window too far left for display (-1726.8 < 0)
+[07/19/18, 19:17:15:542] info: PersistSettingsWindowBehavior: Resetting to default window position
+{
+  "settings": {
+    "position": [
+      2304,
+      330
+    ],
+    "size": [
+      1152,
+      864
+    ]
+  }
+}
+[07/19/18, 19:17:15:542] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "position": [
+    2304,
+    330
+  ],
+  "size": [
+    1152,
+    864
+  ]
+}
+[07/19/18, 19:17:15:559] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[07/19/18, 19:17:15:561] info: App: Welcome to Slack 3.2.1 x64
+[07/19/18, 19:17:15:561] info: App load time: 1,389756690
+[07/19/18, 19:17:16:398] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[07/19/18, 19:17:16:404] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[07/19/18, 19:17:16:406] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 19:17:16:948] info: Store: SET_NETWORK_STATUS online
+[07/19/18, 19:17:20:200] info: WebContents LifeCycle: webContents:3 from 'unloaded' to 'loaded' took 4663 ms
+[07/19/18, 19:17:20:200] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 19:17:20:201] info: Background Clients Update: 
++-----------+---------+------------+
+|           | Full    | Background |
+|-----------+---------+------------+
+| T1G453ZUP | loading |            |
++-----------+---------+------------+
+[07/19/18, 19:17:20:203] info: initializeMainWindowEpic: Showing main window
+{
+  "shouldMinimize": false,
+  "shouldHide": false
+}
+[07/19/18, 19:17:20:204] info: Store: MAIN_WINDOW_SHOWN
+[07/19/18, 19:17:20:449] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 19:17:20:626] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/19/18, 19:17:20:819] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[07/19/18, 19:17:20:821] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[07/19/18, 19:17:21:249] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1922,
+    224
+  ],
+  "isMaximized": false
+}
+[07/19/18, 19:17:21:366] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 19:17:21:441] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 19:17:21:446] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'webapp-loaded' took 1246 ms
+[07/19/18, 19:17:21:447] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 19:17:21:447] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T1G453ZUP | ready |            |
++-----------+-------+------------+
+[07/19/18, 19:17:21:704] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "teamId": "T1G453ZUP",
+  "enterpriseId": null
+}
+[07/19/18, 19:17:21:706] info: Store: STORE_API_TOKEN
+{
+  "token": "xoxs-⋯",
+  "teamId": "T1G453ZUP"
+}
+[07/19/18, 19:17:21:707] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T1G453ZUP",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[07/19/18, 19:17:25:790] info: Store: SELECT_CHANNEL C2F0ZH9T7
+[07/19/18, 19:17:31:690] info: Store: SELECT_CHANNEL C1G4AJ96D
+[07/19/18, 19:17:34:130] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/19/18, 19:17:36:179] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    224
+  ],
+  "isMaximized": false
+}
+[07/19/18, 19:17:39:031] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    224
+  ],
+  "isMaximized": false
+}
+[07/19/18, 19:17:44:130] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    224
+  ],
+  "isMaximized": false
+}
+[07/19/18, 19:17:45:977] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UANNX1CQL-g61c606d212c-512",
+  "channel": "GBH29TDHR",
+  "content": "[REDACTED]",
+  "id": "myxyt5h9jQ6EN7j",
+  "launchUri": "slack://channel?id=GBH29TDHR&message=1532020745.000398&team=T1G453ZUP",
+  "msg": "1532020745.000398",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/19/18, 19:17:45:981] info: Creating new Electron notification.
+[07/19/18, 19:17:54:666] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1922,
+    224
+  ],
+  "isMaximized": false
+}
+[07/19/18, 19:18:00:711] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    224
+  ],
+  "isMaximized": false
+}
+[07/19/18, 19:18:10:714] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1922,
+    224
+  ],
+  "isMaximized": false
+}
+[07/19/18, 19:18:14:814] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    224
+  ],
+  "isMaximized": false
+}
+[07/19/18, 19:18:19:581] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1922,
+    224
+  ],
+  "isMaximized": false
+}
+[07/19/18, 19:18:31:565] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    224
+  ],
+  "isMaximized": false
+}
+[07/19/18, 19:33:58:653] info: Store: SET_SUSPEND_STATUS
+[07/20/18, 09:55:44:651] info: Store: SET_SUSPEND_STATUS true
+[07/20/18, 09:55:51:307] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/20/18, 09:55:51:381] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/20/18, 09:55:52:672] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-USLACKBOT-sv1444671949-512",
+  "channel": "GBH29TDHR",
+  "content": "[REDACTED]",
+  "id": "zXOXCGiK9wXNz35",
+  "launchUri": "slack://channel?id=GBH29TDHR&message=1532025277.000000&team=T1G453ZUP",
+  "msg": "1532025277.000000",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/20/18, 09:55:52:672] info: Creating new Electron notification.
+[07/23/18, 08:33:30:214] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[07/23/18, 08:33:30:215] info: ║      Slack 3.2.1, linux 4.17.6-1-ARCH on x64 at 07/23/18, 08:33:30:213      ║
+[07/23/18, 08:33:30:215] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[07/23/18, 08:33:30:598] info: Initializing local storage instance at path: /home/fleip/.config/Slack/local-settings.json
+[07/23/18, 08:33:30:768] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/fleip/.config/Slack/logs/recorded-trace
+[07/23/18, 08:33:30:775] info: Configuring uncaughtExceptionHandler
+[07/23/18, 08:33:30:775] info: Configuring unhandledRejectionHandler
+[07/23/18, 08:33:30:775] info: Registered with apiKey acaff8df67924f677747922423057034
+[07/23/18, 08:33:36:506] info: BrowserStore: Keychain access previously denied, don't ask again
+[07/23/18, 08:33:36:516] info: Store: persist/REHYDRATE
+{
+  "appTeams": {
+    "selectedTeamId": "T1G453ZUP",
+    "teamsByIndex": [
+      "T1G453ZUP"
+    ],
+    "teamsToSignOut": []
+  },
+  "dialog": "[REDACTED]",
+  "downloads": "[REDACTED]",
+  "enterprise": {
+    "T1G453ZUP": null
+  },
+  "settings": {
+    "appVersion": "3.2.1",
+    "versionName": "Cartoon Heroes",
+    "platform": "linux",
+    "platformVersion": {
+      "major": 4,
+      "minor": 17,
+      "build": 6
+    },
+    "isWin10": false,
+    "isBeforeWin10": false,
+    "resourcePath": "/usr/lib/slack/resources/app.asar",
+    "webappSrcPath": null,
+    "webappParams": null,
+    "isDevMode": false,
+    "devEnv": null,
+    "logFile": null,
+    "rxLogging": false,
+    "openDevToolsOnStart": false,
+    "pretendNotReallyWindows10": false,
+    "releaseChannel": "prod",
+    "autoHideMenuBar": false,
+    "defaultSigninTeam": null,
+    "isTitleBarHidden": false,
+    "hasRunApp": true,
+    "hasRunFromTray": true,
+    "reportIssueOnStartup": false,
+    "isSignedIntoSlackOrg": false,
+    "isGpuCompositionAvailable": true,
+    "runFromTray": true,
+    "launchOnStartup": false,
+    "spellcheckerLanguage": null,
+    "zoomLevel": 0,
+    "workspaceIdleTimeout": 43200000,
+    "whitelistedUrlSchemes": [
+      "http:",
+      "https:",
+      "mailto:",
+      "skype:",
+      "spotify:",
+      "live:",
+      "callto:",
+      "tel:",
+      "im:",
+      "sip:",
+      "sips:",
+      "slack:"
+    ],
+    "isTitleBarForcedByUser": false,
+    "isOpenExternalShellForced": false,
+    "PrefSSBFileDownloadPath": "/home/fleip/Downloads",
+    "notificationMethod": null,
+    "notificationPlayback": null,
+    "notifyPosition": {
+      "corner": "bottom_right",
+      "display": "same_as_app"
+    },
+    "locale": "en-US",
+    "useHwAcceleration": true,
+    "os": false,
+    "release": false,
+    "desktopEnvironment": false,
+    "isAeroGlassEnabled": false,
+    "linux": {
+      "os": "Arch Linux",
+      "release": ""
+    }
+  },
+  "teams": "[REDACTED]",
+  "windowFrame": {
+    "windowSettings": {
+      "size": [
+        1916,
+        1057
+      ],
+      "position": [
+        -3838,
+        224
+      ],
+      "isMaximized": false
+    },
+    "isFullScreen": false
+  }
+}
+[07/23/18, 08:33:36:547] info: initializeMainWindowEpic: Waiting for selected team to load
+{
+  "selectedTeamId": "T1G453ZUP"
+}
+[07/23/18, 08:33:36:548] info: Store: UPDATE_SETTINGS
+{
+  "isSignedIntoSlackOrg": false
+}
+[07/23/18, 08:33:36:549] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[07/23/18, 08:33:36:695] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 17,
+    "build": 6
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.2.1",
+  "versionName": "Cartoon Heroes",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "isGpuCompositionAvailable": true,
+  "linux": {
+    "os": "Arch Linux",
+    "release": ""
+  }
+}
+[07/23/18, 08:33:36:696] info: AutoLoginEpic: Checking for autologin.
+[07/23/18, 08:33:36:699] info: WebContentsMediator: Attaching to new webContents
+[07/23/18, 08:33:36:701] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[07/23/18, 08:33:36:702] info: BrowserViewManager: Starting initialization
+[07/23/18, 08:33:36:702] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 08:33:36:702] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 08:33:36:703] info: WebContentsMediator: Attaching to new webContents
+[07/23/18, 08:33:36:703] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "T1G453ZUP",
+  "state": "unloaded"
+}
+[07/23/18, 08:33:36:708] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T1G453ZUP | start |            |
++-----------+-------+------------+
+[07/23/18, 08:33:36:714] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": {
+    "size": [
+      1916,
+      1057
+    ],
+    "position": [
+      -3838,
+      224
+    ],
+    "isMaximized": false
+  }
+}
+[07/23/18, 08:33:36:715] info: rectIsMostlyContainedIn: Window too far left for display (-3454.8 < 1920)
+[07/23/18, 08:33:36:715] info: rectIsMostlyContainedIn: Window too far left for display (-3454.8 < 0)
+[07/23/18, 08:33:36:715] info: PersistSettingsWindowBehavior: Resetting to default window position
+{
+  "settings": {
+    "position": [
+      2304,
+      285
+    ],
+    "size": [
+      1152,
+      864
+    ]
+  }
+}
+[07/23/18, 08:33:36:715] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "position": [
+    2304,
+    285
+  ],
+  "size": [
+    1152,
+    864
+  ]
+}
+[07/23/18, 08:33:36:732] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[07/23/18, 08:33:36:734] info: App: Welcome to Slack 3.2.1 x64
+[07/23/18, 08:33:36:734] info: App load time: 6,778182716
+[07/23/18, 08:33:37:487] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[07/23/18, 08:33:37:489] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[07/23/18, 08:33:37:490] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 08:33:38:049] info: Store: SET_NETWORK_STATUS online
+[07/23/18, 08:33:41:477] info: WebContents LifeCycle: webContents:3 from 'unloaded' to 'loaded' took 4768 ms
+[07/23/18, 08:33:41:477] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 08:33:41:478] info: Background Clients Update: 
++-----------+---------+------------+
+|           | Full    | Background |
+|-----------+---------+------------+
+| T1G453ZUP | loading |            |
++-----------+---------+------------+
+[07/23/18, 08:33:41:480] info: initializeMainWindowEpic: Showing main window
+{
+  "shouldMinimize": false,
+  "shouldHide": false
+}
+[07/23/18, 08:33:41:481] info: Store: MAIN_WINDOW_SHOWN
+[07/23/18, 08:33:41:732] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 08:33:42:015] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/23/18, 08:33:42:201] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 08:33:42:203] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[07/23/18, 08:33:42:207] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T1G453ZUP",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[07/23/18, 08:33:42:488] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    2,
+    2
+  ],
+  "isMaximized": false
+}
+[07/23/18, 08:33:42:513] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 08:33:42:577] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 08:33:42:582] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'webapp-loaded' took 1105 ms
+[07/23/18, 08:33:42:582] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 08:33:42:582] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T1G453ZUP | ready |            |
++-----------+-------+------------+
+[07/23/18, 08:33:42:721] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "teamId": "T1G453ZUP",
+  "enterpriseId": null
+}
+[07/23/18, 08:33:42:722] info: Store: STORE_API_TOKEN
+{
+  "token": "xoxs-⋯",
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 08:33:47:576] info: Store: SELECT_CHANNEL C1G4577UM
+[07/23/18, 08:33:51:022] info: Store: SELECT_CHANNEL DBN5JGNF7
+[07/23/18, 08:34:14:063] info: Store: SELECT_CHANNEL DB8HPAZ17
+[07/23/18, 08:34:19:359] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 08:36:06:935] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    2
+  ],
+  "isMaximized": false
+}
+[07/23/18, 08:36:12:074] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UB8V3ED1P-gce50a8f7fc0-512",
+  "channel": "DBN5JGNF7",
+  "content": "[REDACTED]",
+  "id": "3BMcmhDGYnpPG3",
+  "launchUri": "slack://channel?id=DBN5JGNF7&message=1532327859.000196&team=T1G453ZUP",
+  "msg": "1532327859.000196",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 08:36:12:077] info: Creating new Electron notification.
+[07/23/18, 08:36:43:238] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    2,
+    2
+  ],
+  "isMaximized": false
+}
+[07/23/18, 08:36:44:708] info: Store: SELECT_CHANNEL DBN5JGNF7
+[07/23/18, 08:36:49:861] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBAE7EUBY-7f47e8983fd9-512",
+  "channel": "DBE6TST09",
+  "content": "[REDACTED]",
+  "id": "5JOsMi2rNk9XwW",
+  "launchUri": "slack://channel?id=DBE6TST09&message=1532327897.000177&team=T1G453ZUP",
+  "msg": "1532327897.000177",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 08:36:49:862] info: Creating new Electron notification.
+[07/23/18, 08:36:55:348] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBAE7EUBY-7f47e8983fd9-512",
+  "channel": "DBE6TST09",
+  "content": "[REDACTED]",
+  "id": "KKwS8sADoYQzoN",
+  "launchUri": "slack://channel?id=DBE6TST09&message=1532327903.000055&team=T1G453ZUP",
+  "msg": "1532327903.000055",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 08:36:55:349] info: Creating new Electron notification.
+[07/23/18, 08:36:57:709] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBAE7EUBY-7f47e8983fd9-512",
+  "channel": "DBE6TST09",
+  "content": "[REDACTED]",
+  "id": "4ENH7tWnj6XkQR",
+  "launchUri": "slack://channel?id=DBE6TST09&message=1532327905.000115&team=T1G453ZUP",
+  "msg": "1532327905.000115",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 08:36:57:709] info: Creating new Electron notification.
+[07/23/18, 08:37:08:980] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 08:38:06:627] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UB8V3ED1P-gce50a8f7fc0-512",
+  "channel": "DBN5JGNF7",
+  "content": "[REDACTED]",
+  "id": "mlrFWu9jNmwJpM",
+  "launchUri": "slack://channel?id=DBN5JGNF7&message=1532327974.000123&team=T1G453ZUP",
+  "msg": "1532327974.000123",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 08:38:06:628] info: Creating new Electron notification.
+[07/23/18, 08:38:10:681] info: Store: SELECT_CHANNEL DBN5JGNF7
+[07/23/18, 08:38:33:480] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    2,
+    2
+  ],
+  "isMaximized": false
+}
+[07/23/18, 08:39:42:048] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UB8V3ED1P-gce50a8f7fc0-512",
+  "channel": "DBN5JGNF7",
+  "content": "[REDACTED]",
+  "id": "xOJsRCwK2l0OxE",
+  "launchUri": "slack://channel?id=DBN5JGNF7&message=1532328069.000223&team=T1G453ZUP",
+  "msg": "1532328069.000223",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 08:39:42:049] info: Creating new Electron notification.
+[07/23/18, 08:39:56:346] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 08:40:08:501] info: Store: SELECT_CHANNEL DBN5JGNF7
+[07/23/18, 08:40:21:035] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 08:41:34:061] info: Store: SELECT_CHANNEL DBN5JGNF7
+[07/23/18, 08:41:35:807] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 08:41:39:686] info: Store: SELECT_CHANNEL DBN5JGNF7
+[07/23/18, 08:41:41:819] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 08:43:19:973] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    2,
+    2
+  ],
+  "isMaximized": false
+}
+[07/23/18, 08:45:02:778] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBAE7EUBY-7f47e8983fd9-512",
+  "channel": "DBE6TST09",
+  "content": "[REDACTED]",
+  "id": "5JOsxF2rNk3kE9",
+  "launchUri": "slack://channel?id=DBE6TST09&message=1532328390.000149&team=T1G453ZUP",
+  "msg": "1532328390.000149",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 08:45:02:778] info: Creating new Electron notification.
+[07/23/18, 08:45:25:800] info: Store: SELECT_CHANNEL DBN5JGNF7
+[07/23/18, 08:45:27:328] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 08:45:31:887] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UB8V3ED1P-gce50a8f7fc0-512",
+  "channel": "DBN5JGNF7",
+  "content": "[REDACTED]",
+  "id": "4ENH6HWnj6qp7m",
+  "launchUri": "slack://channel?id=DBN5JGNF7&message=1532328419.000186&team=T1G453ZUP",
+  "msg": "1532328419.000186",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 08:45:31:888] info: Creating new Electron notification.
+[07/23/18, 08:45:34:629] info: Store: SELECT_CHANNEL DBN5JGNF7
+[07/23/18, 08:45:56:534] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 08:46:08:589] info: Store: SELECT_CHANNEL DBN5JGNF7
+[07/23/18, 08:47:31:826] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    2,
+    2
+  ],
+  "isMaximized": false
+}
+[07/23/18, 08:47:32:986] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 08:47:39:352] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UB8V3ED1P-gce50a8f7fc0-512",
+  "channel": "DBN5JGNF7",
+  "content": "[REDACTED]",
+  "id": "mlrFkI9jNm0kj8",
+  "launchUri": "slack://channel?id=DBN5JGNF7&message=1532328547.000064&team=T1G453ZUP",
+  "msg": "1532328547.000064",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 08:47:39:353] info: Creating new Electron notification.
+[07/23/18, 08:47:41:229] info: Store: SELECT_CHANNEL DBN5JGNF7
+[07/23/18, 08:48:26:312] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UB8V3ED1P-gce50a8f7fc0-512",
+  "channel": "DBN5JGNF7",
+  "content": "[REDACTED]",
+  "id": "g1liKS3gZX4r22",
+  "launchUri": "slack://channel?id=DBN5JGNF7&message=1532328594.000060&team=T1G453ZUP",
+  "msg": "1532328594.000060",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 08:48:26:313] info: Creating new Electron notification.
+[07/23/18, 08:48:51:982] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 08:49:26:622] info: Store: SELECT_CHANNEL DBN5JGNF7
+[07/23/18, 08:49:28:399] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 08:50:08:437] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBAE7EUBY-7f47e8983fd9-512",
+  "channel": "DBE6TST09",
+  "content": "[REDACTED]",
+  "id": "NQzHoTRMz5XVKR",
+  "launchUri": "slack://channel?id=DBE6TST09&message=1532328696.000074&team=T1G453ZUP",
+  "msg": "1532328696.000074",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 08:50:08:438] info: Creating new Electron notification.
+[07/23/18, 08:50:25:545] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UB8V3ED1P-gce50a8f7fc0-512",
+  "channel": "DBN5JGNF7",
+  "content": "[REDACTED]",
+  "id": "8PRFxUMQzkY6GJ",
+  "launchUri": "slack://channel?id=DBN5JGNF7&message=1532328713.000105&team=T1G453ZUP",
+  "msg": "1532328713.000105",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 08:50:25:546] info: Creating new Electron notification.
+[07/23/18, 08:50:48:509] info: Store: SELECT_CHANNEL DBN5JGNF7
+[07/23/18, 08:50:50:990] info: Store: START_DOWNLOAD
+{
+  "id": "FBT055ZC3",
+  "teamId": "T1G453ZUP",
+  "url": "[REDACTED]"
+}
+[07/23/18, 08:50:50:992] info: DownloadListener: Starting download for file FBT055ZC3
+[07/23/18, 08:50:50:992] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "FBT055ZC3",
+  "teamId": "T1G453ZUP",
+  "downloadState": "started"
+}
+[07/23/18, 08:50:51:457] info: Got will-download event for file FBT055ZC3
+[07/23/18, 08:50:51:459] info: DownloadListener: Tracking download for
+{
+  "id": "FBT055ZC3",
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 08:50:51:460] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "FBT055ZC3",
+  "teamId": "T1G453ZUP",
+  "downloadState": "progressing",
+  "downloadPath": "[REDACTED]",
+  "requestState": null
+}
+[07/23/18, 08:50:51:462] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "FBT055ZC3",
+  "teamId": "T1G453ZUP",
+  "progress": 0,
+  "isPaused": false
+}
+[07/23/18, 08:50:51:469] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "FBT055ZC3",
+  "teamId": "T1G453ZUP",
+  "progress": 0,
+  "isPaused": false
+}
+[07/23/18, 08:50:51:470] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "FBT055ZC3",
+  "teamId": "T1G453ZUP",
+  "progress": 1,
+  "isPaused": false
+}
+[07/23/18, 08:50:51:471] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "FBT055ZC3",
+  "teamId": "T1G453ZUP",
+  "progress": 1,
+  "isPaused": false
+}
+[07/23/18, 08:50:51:474] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "FBT055ZC3",
+  "teamId": "T1G453ZUP",
+  "progress": 1,
+  "isPaused": false
+}
+[07/23/18, 08:50:51:479] info: Download completed { id: 'FBT055ZC3', teamId: 'T1G453ZUP' } completed
+[07/23/18, 08:50:51:479] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "FBT055ZC3",
+  "teamId": "T1G453ZUP",
+  "downloadState": "completed",
+  "requestState": null,
+  "endTime": 1532335851479
+}
+[07/23/18, 08:50:51:502] info: Store: DOWNLOAD_NOTIFICATION
+{
+  "id": "T1G453ZUPFBT055ZC3",
+  "teamId": "T1G453ZUP",
+  "title": "Download complete",
+  "content": "[REDACTED]",
+  "avatarImage": "",
+  "channel": "",
+  "msg": "[REDACTED]",
+  "ssbFilename": "confirm_delivery.mp3",
+  "subtitle": "",
+  "body": "",
+  "initials": "",
+  "type": 1,
+  "silent": false,
+  "sound": "confirm_delivery.mp3"
+}
+[07/23/18, 08:50:51:503] info: Creating new Electron notification.
+[07/23/18, 08:51:01:957] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBAE7EUBY-7f47e8983fd9-512",
+  "channel": "DBE6TST09",
+  "content": "[REDACTED]",
+  "id": "8PRF8cMQzkY7YX",
+  "launchUri": "slack://channel?id=DBE6TST09&message=1532328749.000234&team=T1G453ZUP",
+  "msg": "1532328749.000234",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 08:51:01:958] info: Creating new Electron notification.
+[07/23/18, 08:51:08:955] info: Store: START_DOWNLOAD
+{
+  "id": "FBT055ZC3",
+  "teamId": "T1G453ZUP",
+  "url": "[REDACTED]"
+}
+[07/23/18, 08:51:08:956] info: DownloadListener: Starting download for file FBT055ZC3
+[07/23/18, 08:51:08:956] info: startDownload: Downloaded file exists, highlighting it instead
+{
+  "id": "FBT055ZC3",
+  "teamId": "T1G453ZUP",
+  "url": "[REDACTED]",
+  "downloadState": "not_started",
+  "startTime": 1532335868956,
+  "downloadPath": "[REDACTED]",
+  "requestState": null,
+  "progress": 1,
+  "isPaused": false,
+  "endTime": 1532335851479
+}
+[07/23/18, 08:51:08:956] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "FBT055ZC3",
+  "teamId": "T1G453ZUP",
+  "highlight": true
+}
+[07/23/18, 08:51:08:957] info: DownloadListener: Starting download for file FBT055ZC3
+[07/23/18, 08:51:08:957] info: startDownload: Downloaded file exists, highlighting it instead
+{
+  "id": "FBT055ZC3",
+  "teamId": "T1G453ZUP",
+  "url": "[REDACTED]",
+  "downloadState": "not_started",
+  "startTime": 1532335868956,
+  "downloadPath": "[REDACTED]",
+  "requestState": null,
+  "progress": 1,
+  "isPaused": false,
+  "endTime": 1532335851479,
+  "highlight": true
+}
+[07/23/18, 08:51:08:957] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "FBT055ZC3",
+  "teamId": "T1G453ZUP",
+  "highlight": true
+}
+[07/23/18, 08:51:08:958] info: Download completed { id: 'FBT055ZC3', teamId: 'T1G453ZUP' } completed
+[07/23/18, 08:51:08:958] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "FBT055ZC3",
+  "teamId": "T1G453ZUP",
+  "downloadState": "completed",
+  "requestState": null,
+  "endTime": 1532335868958
+}
+[07/23/18, 08:51:08:958] info: Download completed { id: 'FBT055ZC3', teamId: 'T1G453ZUP' } completed
+[07/23/18, 08:51:08:959] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "FBT055ZC3",
+  "teamId": "T1G453ZUP",
+  "downloadState": "completed",
+  "requestState": null,
+  "endTime": 1532335868958
+}
+[07/23/18, 08:51:09:781] info: Store: START_DOWNLOAD
+{
+  "id": "FBT055ZC3",
+  "teamId": "T1G453ZUP",
+  "url": "[REDACTED]"
+}
+[07/23/18, 08:51:09:782] info: DownloadListener: Starting download for file FBT055ZC3
+[07/23/18, 08:51:09:782] info: startDownload: Downloaded file exists, highlighting it instead
+{
+  "id": "FBT055ZC3",
+  "teamId": "T1G453ZUP",
+  "url": "[REDACTED]",
+  "downloadState": "not_started",
+  "startTime": 1532335869781,
+  "downloadPath": "[REDACTED]",
+  "requestState": null,
+  "progress": 1,
+  "isPaused": false,
+  "endTime": 1532335868958,
+  "highlight": true
+}
+[07/23/18, 08:51:09:782] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "FBT055ZC3",
+  "teamId": "T1G453ZUP",
+  "highlight": true
+}
+[07/23/18, 08:51:09:783] info: Download completed { id: 'FBT055ZC3', teamId: 'T1G453ZUP' } completed
+[07/23/18, 08:51:09:783] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "FBT055ZC3",
+  "teamId": "T1G453ZUP",
+  "downloadState": "completed",
+  "requestState": null,
+  "endTime": 1532335869783
+}
+[07/23/18, 08:51:09:959] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "FBT055ZC3",
+  "teamId": "T1G453ZUP",
+  "highlight": false
+}
+[07/23/18, 08:51:09:962] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "FBT055ZC3",
+  "teamId": "T1G453ZUP",
+  "highlight": false
+}
+[07/23/18, 08:51:10:784] info: Store: UPDATE_DOWNLOAD
+{
+  "id": "FBT055ZC3",
+  "teamId": "T1G453ZUP",
+  "highlight": false
+}
+[07/23/18, 08:51:12:023] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 08:51:21:449] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    527
+  ],
+  "position": [
+    960,
+    530
+  ],
+  "isMaximized": false
+}
+[07/23/18, 08:51:23:130] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    960,
+    0
+  ],
+  "isMaximized": false
+}
+[07/23/18, 08:51:28:552] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBAE7EUBY-7f47e8983fd9-512",
+  "channel": "DBE6TST09",
+  "content": "[REDACTED]",
+  "id": "zVLFPfK9BDywMq",
+  "launchUri": "slack://channel?id=DBE6TST09&message=1532328776.000124&team=T1G453ZUP",
+  "msg": "1532328776.000124",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 08:51:28:553] info: Creating new Electron notification.
+[07/23/18, 08:51:32:279] info: Store: SELECT_CHANNEL DBN5JGNF7
+[07/23/18, 08:51:34:637] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 08:52:34:231] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UB8V3ED1P-gce50a8f7fc0-512",
+  "channel": "DBN5JGNF7",
+  "content": "[REDACTED]",
+  "id": "opwIxh6xWg9LOg",
+  "launchUri": "slack://channel?id=DBN5JGNF7&message=1532328842.000040&team=T1G453ZUP",
+  "msg": "1532328842.000040",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 08:52:34:232] info: Creating new Electron notification.
+[07/23/18, 08:52:35:813] info: Store: SELECT_CHANNEL DBN5JGNF7
+[07/23/18, 08:52:47:696] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 08:53:08:021] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UB8V3ED1P-gce50a8f7fc0-512",
+  "channel": "DBN5JGNF7",
+  "content": "[REDACTED]",
+  "id": "3BMc0iDGYnWzXX",
+  "launchUri": "slack://channel?id=DBN5JGNF7&message=1532328875.000226&team=T1G453ZUP",
+  "msg": "1532328875.000226",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 08:53:08:022] info: Creating new Electron notification.
+[07/23/18, 08:53:25:263] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UB8V3ED1P-gce50a8f7fc0-512",
+  "channel": "DBN5JGNF7",
+  "content": "[REDACTED]",
+  "id": "7NQcpsNg0M33l5",
+  "launchUri": "slack://channel?id=DBN5JGNF7&message=1532328893.000038&team=T1G453ZUP",
+  "msg": "1532328893.000038",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 08:53:25:264] info: Creating new Electron notification.
+[07/23/18, 08:53:25:618] info: Store: SELECT_CHANNEL DBN5JGNF7
+[07/23/18, 08:53:45:288] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 08:54:04:919] info: Store: SELECT_CHANNEL DBN5JGNF7
+[07/23/18, 08:54:09:023] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBAE7EUBY-7f47e8983fd9-512",
+  "channel": "DBE6TST09",
+  "content": "[REDACTED]",
+  "id": "0vJT8tWEL7lw2Z",
+  "launchUri": "slack://channel?id=DBE6TST09&message=1532328936.000252&team=T1G453ZUP",
+  "msg": "1532328936.000252",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 08:54:09:024] info: Creating new Electron notification.
+[07/23/18, 08:54:20:489] info: Store: SELECT_CHANNEL DBPKL8SLW
+[07/23/18, 08:54:20:824] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 08:56:16:028] info: Store: SELECT_CHANNEL DBN5JGNF7
+[07/23/18, 08:56:17:873] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 08:56:30:699] info: WindowCloseBehavior: Attempted to close the window, hiding due to run from tray
+[07/23/18, 08:56:45:569] info: App: Otherwise signaled, foregrounding.
+[07/23/18, 08:56:45:569] info: Store: FOREGROUND_APP
+[07/23/18, 08:56:46:576] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    0,
+    0
+  ],
+  "isMaximized": false
+}
+[07/23/18, 08:57:22:672] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UB8V3ED1P-gce50a8f7fc0-512",
+  "channel": "DBN5JGNF7",
+  "content": "[REDACTED]",
+  "id": "mlrFZu9jNmrE9A",
+  "launchUri": "slack://channel?id=DBN5JGNF7&message=1532329130.000151&team=T1G453ZUP",
+  "msg": "1532329130.000151",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 08:57:22:674] info: Creating new Electron notification.
+[07/23/18, 08:57:46:448] info: Store: SELECT_CHANNEL DBN5JGNF7
+[07/23/18, 08:58:00:190] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 08:58:34:309] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UB8V3ED1P-gce50a8f7fc0-512",
+  "channel": "DBN5JGNF7",
+  "content": "[REDACTED]",
+  "id": "VgLsDCJwWZZkQE",
+  "launchUri": "slack://channel?id=DBN5JGNF7&message=1532329202.000105&team=T1G453ZUP",
+  "msg": "1532329202.000105",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 08:58:34:310] info: Creating new Electron notification.
+[07/23/18, 08:58:36:451] info: Store: SELECT_CHANNEL DBN5JGNF7
+[07/23/18, 08:58:37:809] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBAE7EUBY-7f47e8983fd9-512",
+  "channel": "DBE6TST09",
+  "content": "[REDACTED]",
+  "id": "ErnuYFPvBAABOW",
+  "launchUri": "slack://channel?id=DBE6TST09&message=1532329205.000299&team=T1G453ZUP",
+  "msg": "1532329205.000299",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 08:58:37:810] info: Creating new Electron notification.
+[07/23/18, 08:58:58:730] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBAE7EUBY-7f47e8983fd9-512",
+  "channel": "DBE6TST09",
+  "content": "[REDACTED]",
+  "id": "XmNt9Hk17ww8OQ",
+  "launchUri": "slack://channel?id=DBE6TST09&message=1532329226.000207&team=T1G453ZUP",
+  "msg": "1532329226.000207",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 08:58:58:731] info: Creating new Electron notification.
+[07/23/18, 08:59:00:168] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 08:59:05:558] info: Store: SELECT_CHANNEL DBN5JGNF7
+[07/23/18, 08:59:09:455] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 08:59:30:530] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBAE7EUBY-7f47e8983fd9-512",
+  "channel": "DBE6TST09",
+  "content": "[REDACTED]",
+  "id": "mlrFqI9jNmmjDo",
+  "launchUri": "slack://channel?id=DBE6TST09&message=1532329258.000122&team=T1G453ZUP",
+  "msg": "1532329258.000122",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 08:59:30:533] info: Creating new Electron notification.
+[07/23/18, 08:59:50:544] info: Store: SELECT_CHANNEL DBN5JGNF7
+[07/23/18, 08:59:52:295] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 09:00:51:906] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBAE7EUBY-7f47e8983fd9-512",
+  "channel": "DBE6TST09",
+  "content": "[REDACTED]",
+  "id": "YoOUVSVm3gOJjY",
+  "launchUri": "slack://channel?id=DBE6TST09&message=1532329339.000260&team=T1G453ZUP",
+  "msg": "1532329339.000260",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 09:00:51:907] info: Creating new Electron notification.
+[07/23/18, 09:00:54:443] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UB8V3ED1P-gce50a8f7fc0-512",
+  "channel": "DBN5JGNF7",
+  "content": "[REDACTED]",
+  "id": "KKwSyTADoYqxm3",
+  "launchUri": "slack://channel?id=DBN5JGNF7&message=1532329342.000099&team=T1G453ZUP",
+  "msg": "1532329342.000099",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 09:00:54:444] info: Creating new Electron notification.
+[07/23/18, 09:01:06:221] info: Store: SELECT_CHANNEL DBN5JGNF7
+[07/23/18, 09:01:38:201] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 09:01:44:043] info: WindowCloseBehavior: Attempted to close the window, hiding due to run from tray
+[07/23/18, 09:02:40:704] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UB8V3ED1P-gce50a8f7fc0-512",
+  "channel": "DBN5JGNF7",
+  "content": "[REDACTED]",
+  "id": "yQKHGURJP4XZrR",
+  "launchUri": "slack://channel?id=DBN5JGNF7&message=1532329448.000134&team=T1G453ZUP",
+  "msg": "1532329448.000134",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/23/18, 09:02:40:706] info: Creating new Electron notification.
+[07/23/18, 21:36:33:117] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[07/23/18, 21:36:33:118] info: ║      Slack 3.2.1, linux 4.17.6-1-ARCH on x64 at 07/23/18, 21:36:33:115      ║
+[07/23/18, 21:36:33:118] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[07/23/18, 21:36:33:580] info: Initializing local storage instance at path: /home/fleip/.config/Slack/local-settings.json
+[07/23/18, 21:36:33:756] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/fleip/.config/Slack/logs/recorded-trace
+[07/23/18, 21:36:33:762] info: Configuring uncaughtExceptionHandler
+[07/23/18, 21:36:33:762] info: Configuring unhandledRejectionHandler
+[07/23/18, 21:36:33:762] info: Registered with apiKey acaff8df67924f677747922423057034
+[07/23/18, 21:36:33:993] info: BrowserStore: Keychain access previously denied, don't ask again
+[07/23/18, 21:36:34:003] info: Store: persist/REHYDRATE
+{
+  "appTeams": {
+    "selectedTeamId": "T1G453ZUP",
+    "teamsByIndex": [
+      "T1G453ZUP"
+    ],
+    "teamsToSignOut": []
+  },
+  "dialog": "[REDACTED]",
+  "downloads": "[REDACTED]",
+  "enterprise": {
+    "T1G453ZUP": null
+  },
+  "settings": {
+    "appVersion": "3.2.1",
+    "versionName": "Cartoon Heroes",
+    "platform": "linux",
+    "platformVersion": {
+      "major": 4,
+      "minor": 17,
+      "build": 6
+    },
+    "isWin10": false,
+    "isBeforeWin10": false,
+    "resourcePath": "/usr/lib/slack/resources/app.asar",
+    "webappSrcPath": null,
+    "webappParams": null,
+    "isDevMode": false,
+    "devEnv": null,
+    "logFile": null,
+    "rxLogging": false,
+    "openDevToolsOnStart": false,
+    "pretendNotReallyWindows10": false,
+    "releaseChannel": "prod",
+    "autoHideMenuBar": false,
+    "defaultSigninTeam": null,
+    "isTitleBarHidden": false,
+    "hasRunApp": true,
+    "hasRunFromTray": true,
+    "reportIssueOnStartup": false,
+    "isSignedIntoSlackOrg": false,
+    "isGpuCompositionAvailable": true,
+    "runFromTray": true,
+    "launchOnStartup": false,
+    "spellcheckerLanguage": null,
+    "zoomLevel": 0,
+    "workspaceIdleTimeout": 43200000,
+    "whitelistedUrlSchemes": [
+      "http:",
+      "https:",
+      "mailto:",
+      "skype:",
+      "spotify:",
+      "live:",
+      "callto:",
+      "tel:",
+      "im:",
+      "sip:",
+      "sips:",
+      "slack:"
+    ],
+    "isTitleBarForcedByUser": false,
+    "isOpenExternalShellForced": false,
+    "PrefSSBFileDownloadPath": "/home/fleip/Downloads",
+    "notificationMethod": null,
+    "notificationPlayback": null,
+    "notifyPosition": {
+      "corner": "bottom_right",
+      "display": "same_as_app"
+    },
+    "locale": "en-US",
+    "useHwAcceleration": true,
+    "os": false,
+    "release": false,
+    "desktopEnvironment": false,
+    "isAeroGlassEnabled": false,
+    "linux": {
+      "os": "Arch Linux",
+      "release": ""
+    }
+  },
+  "teams": "[REDACTED]",
+  "windowFrame": {
+    "windowSettings": {
+      "size": [
+        956,
+        1057
+      ],
+      "position": [
+        0,
+        0
+      ],
+      "isMaximized": false
+    },
+    "isFullScreen": false
+  }
+}
+[07/23/18, 21:36:34:034] info: initializeMainWindowEpic: Waiting for selected team to load
+{
+  "selectedTeamId": "T1G453ZUP"
+}
+[07/23/18, 21:36:34:034] info: Store: UPDATE_SETTINGS
+{
+  "isSignedIntoSlackOrg": false
+}
+[07/23/18, 21:36:34:035] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[07/23/18, 21:36:34:145] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 17,
+    "build": 6
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.2.1",
+  "versionName": "Cartoon Heroes",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "isGpuCompositionAvailable": true,
+  "linux": {
+    "os": "Arch Linux",
+    "release": ""
+  }
+}
+[07/23/18, 21:36:34:146] info: AutoLoginEpic: Checking for autologin.
+[07/23/18, 21:36:34:149] info: WebContentsMediator: Attaching to new webContents
+[07/23/18, 21:36:34:150] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[07/23/18, 21:36:34:151] info: BrowserViewManager: Starting initialization
+[07/23/18, 21:36:34:151] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 21:36:34:152] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 21:36:34:152] info: WebContentsMediator: Attaching to new webContents
+[07/23/18, 21:36:34:153] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "T1G453ZUP",
+  "state": "unloaded"
+}
+[07/23/18, 21:36:34:156] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T1G453ZUP | start |            |
++-----------+-------+------------+
+[07/23/18, 21:36:34:161] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": {
+    "size": [
+      956,
+      1057
+    ],
+    "position": [
+      0,
+      0
+    ],
+    "isMaximized": false
+  }
+}
+[07/23/18, 21:36:34:162] info: rectIsMostlyContainedIn: Window too far left for display (191.20000000000002 < 1920)
+[07/23/18, 21:36:34:176] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[07/23/18, 21:36:34:178] info: App: Welcome to Slack 3.2.1 x64
+[07/23/18, 21:36:34:178] info: App load time: 1,326127549
+[07/23/18, 21:36:34:880] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[07/23/18, 21:36:34:892] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[07/23/18, 21:36:34:894] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 21:36:35:430] info: Store: SET_NETWORK_STATUS online
+[07/23/18, 21:36:42:479] info: WebContents LifeCycle: webContents:3 from 'unloaded' to 'loaded' took 8322 ms
+[07/23/18, 21:36:42:479] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 21:36:42:481] info: Background Clients Update: 
++-----------+---------+------------+
+|           | Full    | Background |
+|-----------+---------+------------+
+| T1G453ZUP | loading |            |
++-----------+---------+------------+
+[07/23/18, 21:36:42:483] info: initializeMainWindowEpic: Showing main window
+{
+  "shouldMinimize": false,
+  "shouldMaximize": false,
+  "shouldHide": false
+}
+[07/23/18, 21:36:42:484] info: Store: MAIN_WINDOW_SHOWN
+[07/23/18, 21:36:42:729] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 21:36:42:846] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 21:36:42:847] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[07/23/18, 21:36:42:849] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[07/23/18, 21:36:43:492] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1922,
+    119
+  ],
+  "isMaximized": false
+}
+[07/23/18, 21:36:43:498] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 21:36:43:580] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 21:36:43:582] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'webapp-loaded' took 1103 ms
+[07/23/18, 21:36:43:582] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 21:36:43:583] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T1G453ZUP | ready |            |
++-----------+-------+------------+
+[07/23/18, 21:36:43:665] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T1G453ZUP",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[07/23/18, 21:36:43:877] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "teamId": "T1G453ZUP",
+  "enterpriseId": null
+}
+[07/23/18, 21:36:43:879] info: Store: STORE_API_TOKEN
+{
+  "token": "xoxs-⋯",
+  "teamId": "T1G453ZUP"
+}
+[07/23/18, 21:37:11:170] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/23/18, 21:37:48:697] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/23/18, 21:38:00:946] info: Store: SELECT_CHANNEL GBHRY1DQ9
+[07/23/18, 21:38:04:542] info: Store: SELECT_CHANNEL CA7GHA0TW
+[07/23/18, 21:38:05:396] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/23/18, 21:38:07:793] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/23/18, 21:38:19:293] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/23/18, 21:38:37:136] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/23/18, 21:38:50:873] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    2880,
+    117
+  ],
+  "isMaximized": false
+}
+[07/23/18, 21:38:52:025] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1920,
+    117
+  ],
+  "isMaximized": false
+}
+[07/23/18, 21:38:58:034] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    2880,
+    117
+  ],
+  "isMaximized": false
+}
+[07/23/18, 21:41:17:413] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1920,
+    117
+  ],
+  "isMaximized": false
+}
+[07/23/18, 21:41:18:967] info: Store: SELECT_CHANNEL DBEJUGTC3
+[07/23/18, 21:41:24:435] info: WindowCloseBehavior: Attempted to close the window, hiding due to run from tray
+[07/23/18, 21:42:41:673] info: App: Otherwise signaled, foregrounding.
+[07/23/18, 21:42:41:673] info: Store: FOREGROUND_APP
+[07/23/18, 21:42:42:675] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1920,
+    117
+  ],
+  "isMaximized": false
+}
+[07/23/18, 21:42:44:342] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 21:48:03:236] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    -3838,
+    119
+  ],
+  "isMaximized": false
+}
+[07/23/18, 21:48:04:713] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1922,
+    119
+  ],
+  "isMaximized": false
+}
+[07/23/18, 21:48:07:016] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1922,
+    119
+  ],
+  "isMaximized": false
+}
+[07/23/18, 21:50:07:377] info: Store: SELECT_CHANNEL DBN5JGNF7
+[07/23/18, 21:50:12:946] info: Store: SELECT_CHANNEL DBE6TST09
+[07/23/18, 21:56:58:792] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/23/18, 21:57:04:868] info: WindowCloseBehavior: Attempted to close the window, hiding due to run from tray
+[07/23/18, 21:57:05:875] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1916,
+    1057
+  ],
+  "position": [
+    1920,
+    117
+  ],
+  "isMaximized": false
+}
+[07/24/18, 09:30:57:527] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[07/24/18, 09:30:57:528] info: ║      Slack 3.2.1, linux 4.17.6-1-ARCH on x64 at 07/24/18, 09:30:57:525      ║
+[07/24/18, 09:30:57:528] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[07/24/18, 09:30:57:902] info: Initializing local storage instance at path: /home/fleip/.config/Slack/local-settings.json
+[07/24/18, 09:30:58:075] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/fleip/.config/Slack/logs/recorded-trace
+[07/24/18, 09:30:58:082] info: Configuring uncaughtExceptionHandler
+[07/24/18, 09:30:58:082] info: Configuring unhandledRejectionHandler
+[07/24/18, 09:30:58:082] info: Registered with apiKey acaff8df67924f677747922423057034
+[07/24/18, 09:30:58:321] info: BrowserStore: Keychain access previously denied, don't ask again
+[07/24/18, 09:30:58:330] info: Store: persist/REHYDRATE
+{
+  "appTeams": {
+    "selectedTeamId": "T1G453ZUP",
+    "teamsByIndex": [
+      "T1G453ZUP"
+    ],
+    "teamsToSignOut": []
+  },
+  "dialog": "[REDACTED]",
+  "downloads": "[REDACTED]",
+  "enterprise": {
+    "T1G453ZUP": null
+  },
+  "settings": {
+    "appVersion": "3.2.1",
+    "versionName": "Cartoon Heroes",
+    "platform": "linux",
+    "platformVersion": {
+      "major": 4,
+      "minor": 17,
+      "build": 6
+    },
+    "isWin10": false,
+    "isBeforeWin10": false,
+    "resourcePath": "/usr/lib/slack/resources/app.asar",
+    "webappSrcPath": null,
+    "webappParams": null,
+    "isDevMode": false,
+    "devEnv": null,
+    "logFile": null,
+    "rxLogging": false,
+    "openDevToolsOnStart": false,
+    "pretendNotReallyWindows10": false,
+    "releaseChannel": "prod",
+    "autoHideMenuBar": false,
+    "defaultSigninTeam": null,
+    "isTitleBarHidden": false,
+    "hasRunApp": true,
+    "hasRunFromTray": true,
+    "reportIssueOnStartup": false,
+    "isSignedIntoSlackOrg": false,
+    "isGpuCompositionAvailable": true,
+    "runFromTray": true,
+    "launchOnStartup": false,
+    "spellcheckerLanguage": null,
+    "zoomLevel": 0,
+    "workspaceIdleTimeout": 43200000,
+    "whitelistedUrlSchemes": [
+      "http:",
+      "https:",
+      "mailto:",
+      "skype:",
+      "spotify:",
+      "live:",
+      "callto:",
+      "tel:",
+      "im:",
+      "sip:",
+      "sips:",
+      "slack:"
+    ],
+    "isTitleBarForcedByUser": false,
+    "isOpenExternalShellForced": false,
+    "PrefSSBFileDownloadPath": "/home/fleip/Downloads",
+    "notificationMethod": null,
+    "notificationPlayback": null,
+    "notifyPosition": {
+      "corner": "bottom_right",
+      "display": "same_as_app"
+    },
+    "locale": "en-US",
+    "useHwAcceleration": true,
+    "os": false,
+    "release": false,
+    "desktopEnvironment": false,
+    "isAeroGlassEnabled": false,
+    "linux": {
+      "os": "Arch Linux",
+      "release": ""
+    }
+  },
+  "teams": "[REDACTED]",
+  "windowFrame": {
+    "windowSettings": {
+      "size": [
+        1916,
+        1057
+      ],
+      "position": [
+        1920,
+        117
+      ],
+      "isMaximized": false
+    },
+    "isFullScreen": false
+  }
+}
+[07/24/18, 09:30:58:361] info: initializeMainWindowEpic: Waiting for selected team to load
+{
+  "selectedTeamId": "T1G453ZUP"
+}
+[07/24/18, 09:30:58:362] info: Store: UPDATE_SETTINGS
+{
+  "isSignedIntoSlackOrg": false
+}
+[07/24/18, 09:30:58:363] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[07/24/18, 09:30:58:478] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 17,
+    "build": 6
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.2.1",
+  "versionName": "Cartoon Heroes",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "isGpuCompositionAvailable": true,
+  "linux": {
+    "os": "Arch Linux",
+    "release": ""
+  }
+}
+[07/24/18, 09:30:58:480] info: AutoLoginEpic: Checking for autologin.
+[07/24/18, 09:30:58:483] info: WebContentsMediator: Attaching to new webContents
+[07/24/18, 09:30:58:485] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[07/24/18, 09:30:58:486] info: BrowserViewManager: Starting initialization
+[07/24/18, 09:30:58:486] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/24/18, 09:30:58:486] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/24/18, 09:30:58:487] info: WebContentsMediator: Attaching to new webContents
+[07/24/18, 09:30:58:487] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "T1G453ZUP",
+  "state": "unloaded"
+}
+[07/24/18, 09:30:58:491] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T1G453ZUP | start |            |
++-----------+-------+------------+
+[07/24/18, 09:30:58:497] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": {
+    "size": [
+      1916,
+      1057
+    ],
+    "position": [
+      1920,
+      117
+    ],
+    "isMaximized": false
+  }
+}
+[07/24/18, 09:30:58:513] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[07/24/18, 09:30:58:514] info: App: Welcome to Slack 3.2.1 x64
+[07/24/18, 09:30:58:515] info: App load time: 1,247738975
+[07/24/18, 09:30:59:264] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[07/24/18, 09:30:59:266] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[07/24/18, 09:30:59:267] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1G453ZUP"
+}
+[07/24/18, 09:30:59:816] info: Store: SET_NETWORK_STATUS online
+[07/24/18, 09:31:02:622] info: WebContents LifeCycle: webContents:3 from 'unloaded' to 'loaded' took 4130 ms
+[07/24/18, 09:31:02:623] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/24/18, 09:31:02:624] info: Background Clients Update: 
++-----------+---------+------------+
+|           | Full    | Background |
+|-----------+---------+------------+
+| T1G453ZUP | loading |            |
++-----------+---------+------------+
+[07/24/18, 09:31:02:625] info: initializeMainWindowEpic: Showing main window
+{
+  "shouldMinimize": false,
+  "shouldMaximize": false,
+  "shouldHide": false
+}
+[07/24/18, 09:31:02:626] info: Store: MAIN_WINDOW_SHOWN
+[07/24/18, 09:31:02:872] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T1G453ZUP"
+}
+[07/24/18, 09:31:03:057] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/24/18, 09:31:03:059] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[07/24/18, 09:31:03:060] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[07/24/18, 09:31:03:485] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-06-13/50511731271_3b4427cc943421df5a5e_original.png"
+  },
+  "teamId": "T1G453ZUP"
+}
+[07/24/18, 09:31:03:554] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1G453ZUP"
+}
+[07/24/18, 09:31:03:559] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'webapp-loaded' took 937 ms
+[07/24/18, 09:31:03:560] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T1G453ZUP"
+}
+[07/24/18, 09:31:03:560] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T1G453ZUP | ready |            |
++-----------+-------+------------+
+[07/24/18, 09:31:03:638] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    2,
+    2
+  ],
+  "isMaximized": false
+}
+[07/24/18, 09:31:03:751] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "teamId": "T1G453ZUP",
+  "enterpriseId": null
+}
+[07/24/18, 09:31:03:753] info: Store: STORE_API_TOKEN
+{
+  "token": "xoxs-⋯",
+  "teamId": "T1G453ZUP"
+}
+[07/24/18, 09:31:03:764] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T1G453ZUP",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[07/24/18, 09:31:16:919] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/24/18, 09:31:19:917] info: Store: SELECT_CHANNEL C2F0ZH9T7
+[07/24/18, 09:31:20:218] info: Store: SELECT_CHANNEL C1G4577UM
+[07/24/18, 09:31:23:119] info: Store: SELECT_CHANNEL C6E0ZEYLE
+[07/24/18, 09:31:23:465] info: Store: SELECT_CHANNEL C1G4AJ96D
+[07/24/18, 09:31:25:568] info: Store: SELECT_CHANNEL GBH29TDHR
+[07/24/18, 09:31:26:494] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-U7BQK19DM-e204842bac22-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "4RMWsJhWnNMjPAp",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1532417488.000346&team=T1G453ZUP",
+  "msg": "1532417488.000346",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/24/18, 09:31:26:497] info: Creating new Electron notification.
+[07/24/18, 09:31:27:012] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    -1918,
+    2
+  ],
+  "isMaximized": false
+}
+[07/24/18, 09:32:40:782] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBJKHGFGD-3de9d49941bd-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "PZ36T0ijOZrZpRV",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1532417563.000090&team=T1G453ZUP",
+  "msg": "1532417563.000090",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/24/18, 09:32:40:783] info: Creating new Electron notification.
+[07/24/18, 09:32:54:849] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBJKHGFGD-3de9d49941bd-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "E93Kt1sPvxQxA1m",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1532417577.000094&team=T1G453ZUP",
+  "msg": "1532417577.000094",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/24/18, 09:32:54:850] info: Creating new Electron notification.
+[07/24/18, 09:33:13:431] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBJKHGFGD-3de9d49941bd-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "4RMWs7tWnNMNlML",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1532417595.000316&team=T1G453ZUP",
+  "msg": "1532417595.000316",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/24/18, 09:33:13:432] info: Creating new Electron notification.
+[07/24/18, 09:33:37:393] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-U1QDDT22V-334f205a53be-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "W73WfDun4LpOn89",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1532417619.000315&team=T1G453ZUP",
+  "msg": "1532417619.000315",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/24/18, 09:33:37:394] info: Creating new Electron notification.
+[07/24/18, 09:33:43:186] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    2,
+    2
+  ],
+  "isMaximized": false
+}
+[07/24/18, 09:33:44:610] info: WindowCloseBehavior: Attempted to close the window, hiding due to run from tray
+[07/24/18, 09:33:44:865] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-U1QDDT22V-334f205a53be-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "wmJnUVCKMQ8RQLw",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1532417627.000122&team=T1G453ZUP",
+  "msg": "1532417627.000122",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/24/18, 09:33:44:866] info: Creating new Electron notification.
+[07/24/18, 09:33:45:617] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    956,
+    1057
+  ],
+  "position": [
+    0,
+    0
+  ],
+  "isMaximized": false
+}
+[07/24/18, 09:34:06:509] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBJKHGFGD-3de9d49941bd-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "1rJVukFXgO1mEPD",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1532417649.000006&team=T1G453ZUP",
+  "msg": "1532417649.000006",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/24/18, 09:34:06:510] info: Creating new Electron notification.
+[07/24/18, 09:34:22:176] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-U1QDDT22V-334f205a53be-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "59NAtRH2rl84pY1",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1532417664.000234&team=T1G453ZUP",
+  "msg": "1532417664.000234",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/24/18, 09:34:22:177] info: Creating new Electron notification.
+[07/24/18, 09:34:34:834] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-U1QDDT22V-334f205a53be-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "nrwGurIZQ0Evq0r",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1532417677.000086&team=T1G453ZUP",
+  "msg": "1532417677.000086",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/24/18, 09:34:34:834] info: Creating new Electron notification.
+[07/24/18, 09:34:42:700] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBJKHGFGD-3de9d49941bd-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "E93KtOSPvxQy7KB",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1532417685.000040&team=T1G453ZUP",
+  "msg": "1532417685.000040",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/24/18, 09:34:42:701] info: Creating new Electron notification.
+[07/24/18, 09:34:56:650] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-U1QDDT22V-334f205a53be-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "6ROYsXT5K2Ljpk9",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1532417699.000002&team=T1G453ZUP",
+  "msg": "1532417699.000002",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/24/18, 09:34:56:651] info: Creating new Electron notification.
+[07/24/18, 09:35:38:436] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T1G453ZUP-UBJKHGFGD-3de9d49941bd-512",
+  "channel": "C6E0ZEYLE",
+  "content": "[REDACTED]",
+  "id": "oQxATJU6x7o581Q",
+  "launchUri": "slack://channel?id=C6E0ZEYLE&message=1532417740.000318&team=T1G453ZUP",
+  "msg": "1532417740.000318",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T1G453ZUP",
+  "title": "[REDACTED]"
+}
+[07/24/18, 09:35:38:437] info: Creating new Electron notification.
