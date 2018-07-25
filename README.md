@@ -1,0 +1,1 @@
+# Arch Linux i3 config
