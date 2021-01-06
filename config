@@ -180,7 +180,8 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
     position top
-    status_command i3status -c ~/.config/i3status/config
+    status_command i3status
+    
 }
 
 
@@ -191,3 +192,7 @@ bindsym $mod+p exec pavucontrol
 
 # Keyboard layout
 exec "setxkbmap -option 'grp:alt_shift_toggle' -layout us,se"
+
+# backlight
+bindsym F12 exec light -A 5
+bindsym F11 exec light -U 5
